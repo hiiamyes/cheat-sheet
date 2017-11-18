@@ -23,4 +23,6 @@ config
 
 ## Snippet
 
+F1 > Preferences: Open User Snippets > Javascript React
+
 

@@ -6,16 +6,24 @@
 
 **Installation**
 
+npm
+
 `(
   export PKG=eslint-config-airbnb;
   npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
 )`
 
+yarn
+
+`(
+  export PKG=eslint-config-airbnb;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add "$PKG@latest" --dev
+)`
+
 **Config**
 
-`vim .eslintrc`
-
 ```
+// .eslintrc
 {
   "extends": "airbnb",
   "globals": {
@@ -26,6 +34,15 @@
     "react/prop-types": [0],
     "import/no-extraneous-dependencies": [0]
   }
+}
+```
+
+or
+
+```
+// .eslintrc
+{
+  "extends": "react-app"
 }
 ```
 
