@@ -1,0 +1,19 @@
+
+## docker compose
+
+```
+web:
+  build: .
+  ports:
+    - "3001"
+  links:
+    - redis
+redis:
+  image: redis:alpine
+  volumes:
+    - /var/redis/data:/data
+```
+
+`docker-compose up -d`
+`docker-compose stop`
+`docker-compose rm`
