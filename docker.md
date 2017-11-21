@@ -67,3 +67,11 @@ docker run -d -p 80:80 yes:v1
 ```
 
 ##
+
+
+
+
+
+
+If you wish to keep the intermediate containers after the build is complete, you must use --rm=false. This does not affect the build cache.
+
