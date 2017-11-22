@@ -10,6 +10,14 @@ variable
 `export PKG=eslint-config-airbnb;`
 `env | grep 'PKG'`
 
+makes file executable
+
+`chmod + x shell-script.sh`
+
+list files with permission info
+
+`ls -l`
+
 ## shell
 
 * bash
