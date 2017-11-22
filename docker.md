@@ -88,3 +88,9 @@ remove all stopped containers
 docker container prune
 ```
 
+remove all none docker images
+
+```
+docker rmi $(docker images -f "dangling=true" -q)
+```
+
