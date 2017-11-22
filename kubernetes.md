@@ -47,3 +47,15 @@ kubectl exec -ti $POD_NAME bash
 https://kubernetes.io/docs/tutorials/
 https://kubernetes.io/docs/user-guide/kubectl-overview/
 
+
+
+
+
+
+
+patch="{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"timestamp\":\"$timestamp\"}}}}}"
+
+kubectl --namespace="${namespace}" patch deployments "${image}" -p "$patch"
+
+kubectl --namespace="${namespace}" rollout status -w "deployment/${image}"
+
