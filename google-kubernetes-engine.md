@@ -55,7 +55,21 @@ kubectl get service hello-web
 http://EXTERNAL-IP:8080
 ```
 
+https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app#package_and_deploy_your_application
+
 deploy with gcr (better way)
+
+To package and deploy your application on Kubernetes Engine, you must:
+
+1. Package your app into a Docker image
+1. Run the container locally on your machine (optional)
+1. Upload the image to a registry
+1. Create a container cluster
+1. Deploy your app to the cluster
+1. Expose your app to the Internet
+1. Scale up your deployment
+1. Deploy a new version of your app
+
 
 ```
 
