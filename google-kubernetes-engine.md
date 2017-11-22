@@ -38,3 +38,17 @@ Enter a path to an rc file to update, or leave blank to use
 [/Users/yes/.bash_profile]:  
 
 ```
+
+
+## Deploy
+
+```
+gcloud components install kubectl
+gcloud config set project PROJECT_ID
+gcloud config set compute/zone us-central1-b
+gcloud container clusters get-credentials example-cluster
+kubectl run hello-web --image=gcr.io/google-samples/hello-app:1.0 --port=8080
+
+```
+
+
