@@ -26,3 +26,26 @@ list files with permission info
     * oh-my-zsh
 
 * Korn shell(ksh)
+
+
+## Variables
+
+Shell variables are created once they are assigned a value.
+
+```
+name="y  e  s"
+```
+
+Referencing the variables
+
+```
+// $ for variable
+echo $name
+// ${} is used to avoid ambiguity
+echo ${name}isme
+// "" will preserve any white space values
+echo "$name"
+// Substitution: Variables can be assigned with the value of a command output.
+files=`ls`
+FileWithTimeStamp=/tmp/my-dir/file_$(/bin/date +%Y-%m-%d).txt
+```
