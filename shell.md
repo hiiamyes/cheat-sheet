@@ -76,3 +76,11 @@ Num  Colour    #define         R G B
 6    cyan      COLOR_CYAN      0,1,1
 7    white     COLOR_WHITE     1,1,1
 ```
+
+### 
+
+For OSX El Capitan and newer (or if your netstat doesn't support -p), use lsof
+
+```
+sudo lsof -i tcp:3000 
+```
