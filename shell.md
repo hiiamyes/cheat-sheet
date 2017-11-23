@@ -48,4 +48,6 @@ echo "$name"
 // Substitution: Variables can be assigned with the value of a command output.
 files=`ls`
 FileWithTimeStamp=/tmp/my-dir/file_$(/bin/date +%Y-%m-%d).txt
+version=$(node -e "console.log(require('./package.json').version)")
+
 ```
