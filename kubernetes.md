@@ -50,7 +50,7 @@ https://kubernetes.io/docs/user-guide/kubectl-overview/
 
 
 
-### Namespaces
+## Namespaces
 
 execute commands under some namespace...
 
