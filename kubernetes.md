@@ -1,4 +1,8 @@
 
+Official Cheat Sheet
+https://kubernetes.io/docs/user-guide/kubectl-cheatsheet/
+
+
 ## Create a Cluster
 ```
 minikube version
