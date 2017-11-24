@@ -91,3 +91,9 @@ IntOrString  to 65535. Name must be an IANA_SVC_NAME. If this is a string, it wi
              This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field.
              More info: http://kubernetes.io/docs/user-guide/services#defining-a-service
 
+
+## Minikube
+
+If your service has a nodeport, you can access it from the host like:
+curl http://$(minikube ip):$NODEPORT
+https://github.com/kubernetes/minikube/issues/211
