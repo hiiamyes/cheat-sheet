@@ -62,7 +62,11 @@ execute commands under some namespace...
 kubectl --namespace ...
 ```
 
+## Delete
 
+```
+kubectl delete deployment test
+```
 
 patch="{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"timestamp\":\"$timestamp\"}}}}}"
 
