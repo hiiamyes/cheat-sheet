@@ -50,6 +50,13 @@ https://kubernetes.io/docs/user-guide/kubectl-overview/
 
 
 
+### Namespaces
+
+execute commands under some namespace...
+
+```
+kubectl --namespace ...
+```
 
 
 
