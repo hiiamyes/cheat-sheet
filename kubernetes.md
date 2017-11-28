@@ -157,3 +157,13 @@ https://kubernetes.io/docs/concepts/services-networking/ingress/#ingress-control
 
 ## Lego
 https://github.com/jetstack/kube-lego
+
+## Google Conatiner Registry
+
+https://kubernetes.io/docs/concepts/containers/images/#using-google-container-registry
+
+
+## Secret
+
+https://kubernetes.io/docs/concepts/configuration/secret/
+
