@@ -131,6 +131,10 @@ redis-cli -h inline-web-local-redis-redis -a $REDIS_PASSWORD
 
 https://medium.com/@cashisclay/kubernetes-ingress-82aa960f658e
 
+### Ingress Controller
+
+https://kubernetes.io/docs/concepts/services-networking/ingress/#ingress-controllers
+
 
 ## Lego
 https://github.com/jetstack/kube-lego
