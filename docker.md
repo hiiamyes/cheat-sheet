@@ -6,7 +6,7 @@
 
 `docker inspect <friendly-name|container-id>`
 
-`docker log <friendly-name|container-id>`
+`docker logs <friendly-name|container-id>`
 
 ```
 // running Redis in the background, with a name of redisHostPort on port 6379
