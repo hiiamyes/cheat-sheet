@@ -161,7 +161,7 @@ https://github.com/jetstack/kube-lego
 ## Google Conatiner Registry
 
 https://kubernetes.io/docs/concepts/containers/images/#using-google-container-registry
-
+https://ryaneschinger.com/blog/using-google-container-registry-gcr-with-minikube/
 
 ## Secret
 
