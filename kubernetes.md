@@ -127,6 +127,25 @@ kubectl run --namespace default inline-web-local-redis-redis-client --rm --tty -
 redis-cli -h inline-web-local-redis-redis -a $REDIS_PASSWORD
 ```
 
+## Namespace
+
+https://kubernetes.io/docs/tasks/administer-cluster/namespaces/#creating-a-new-namespace
+
+Create a new YAML file called my-namespace.yaml with the contents:
+
+```
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: <insert-namespace-name-here>
+```
+
+Then run:
+
+```
+$ kubectl create -f ./my-namespace.yaml
+```
+
 ## Ingress
 
 https://medium.com/@cashisclay/kubernetes-ingress-82aa960f658e
