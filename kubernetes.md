@@ -126,3 +126,11 @@ kubectl run --namespace default inline-web-local-redis-redis-client --rm --tty -
 ```
 redis-cli -h inline-web-local-redis-redis -a $REDIS_PASSWORD
 ```
+
+## Ingress
+
+https://medium.com/@cashisclay/kubernetes-ingress-82aa960f658e
+
+
+## Lego
+https://github.com/jetstack/kube-lego
