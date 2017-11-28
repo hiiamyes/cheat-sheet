@@ -101,7 +101,7 @@ https://github.com/kubernetes/minikube/issues/211
 ## Docker
 
 ```
-helm install stable/redis
+helm install --name redis stable/redis
 ```
 
 NOTES:
