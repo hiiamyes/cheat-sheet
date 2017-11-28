@@ -100,6 +100,10 @@ https://github.com/kubernetes/minikube/issues/211
 
 ## Docker
 
+```
+helm install stable/redis
+```
+
 NOTES:
 Redis can be accessed via port 6379 on the following DNS name from within your cluster:
 inline-web-local-redis-redis.default.svc.cluster.local
