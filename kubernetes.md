@@ -77,6 +77,9 @@ kubectl --namespace="${namespace}" rollout status -w "deployment/${image}"
 
 ## Port
 
+port, nodePort, targetPort
+http://blog.csdn.net/xinghun_4/article/details/50492041
+
 nodePort     The port on each node on which this service is exposed when type=NodePort or LoadBalancer. Usually
 integer      assigned by the system. If specified, it will be allocated to the service if unused or else creation of the
              service will fail. Default is to auto-allocate a port if the ServiceType of this Service requires one. More info: 
@@ -173,3 +176,11 @@ kubectl create secret docker-registry regsecret --docker-server=<your-registry-s
 
 https://kubernetes.io/docs/concepts/configuration/secret/
 
+
+## Annotations
+
+https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/
+
+```
+ingress.kubernetes.io/force-ssl-redirect: "true"
+```
