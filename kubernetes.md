@@ -163,6 +163,12 @@ https://github.com/jetstack/kube-lego
 https://kubernetes.io/docs/concepts/containers/images/#using-google-container-registry
 https://ryaneschinger.com/blog/using-google-container-registry-gcr-with-minikube/
 
+https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+
+```
+kubectl create secret docker-registry regsecret --docker-server=<your-registry-server> --docker-username=<your-name> --docker-password=<your-pword> --docker-email=<your-email>
+```
+
 ## Secret
 
 https://kubernetes.io/docs/concepts/configuration/secret/
