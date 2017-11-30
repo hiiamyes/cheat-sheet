@@ -94,3 +94,16 @@ remove all none docker images
 docker rmi $(docker images -f "dangling=true" -q)
 ```
 
+## 
+
+```
+docker system prune
+```
+```
+WARNING! This will remove:
+        - all stopped containers
+        - all networks not used by at least one container
+        - all dangling images
+        - all build cache
+```
+
