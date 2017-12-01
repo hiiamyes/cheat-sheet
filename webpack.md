@@ -4,6 +4,8 @@
 
 * CommonsChunkPlugin
  
+* ExtractTextPlugin
+
 * snippet
 
 ```
