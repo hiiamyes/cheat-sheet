@@ -5,6 +5,18 @@ node_modules
 build
 ```
 
+## .gitconfig
+
+```
+[user]
+	name = yes
+[alias]
+	acn = !git add . && git commit -n
+	fdr = !git fetch origin develop:develop && git rebase -i develop
+	bmd = !git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d // branch merged delete
+	gp = !git push origin HEAD // push current branch
+```
+
 ## terminal
 
 Git branch in prompt.
