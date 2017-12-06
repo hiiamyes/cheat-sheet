@@ -77,6 +77,28 @@ Num  Colour    #define         R G B
 7    white     COLOR_WHITE     1,1,1
 ```
 
+### Crontab
+
+http://www.nncron.ru/help/EN/working/cron-format.htm
+
+```
+* * * * * *
+| | | | | | 
+| | | | | +-- Year              (range: 1900-3000)
+| | | | +---- Day of the Week   (range: 1-7, 1 standing for Monday)
+| | | +------ Month of the Year (range: 1-12)
+| | +-------- Day of the Month  (range: 1-31)
+| +---------- Hour              (range: 0-23)
++------------ Minute            (range: 0-59)
+```
+
+```
+* * * * * *                         Each minute
+59 23 31 12 5 *                     One minute  before the end of year if the last day of the year is Friday									
+59 23 31 DEC Fri *                  Same as above (different notation)
+45 17 7 6 * *                       Every  year, on June 7th at 17:45
+```
+
 ### Others
 
 For OSX El Capitan and newer (or if your netstat doesn't support -p), use lsof
