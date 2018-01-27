@@ -50,3 +50,22 @@ PING hiiamyes.com (139.162.47.241): 56 data bytes
 ```
 traceroute hiiamyes.com
 ```
+
+```
+host hiiamyes.com
+
+hiiamyes.com has address 104.18.63.146
+hiiamyes.com has address 104.18.62.146
+hiiamyes.com has IPv6 address 2400:cb00:2048:1::6812:3f92
+hiiamyes.com has IPv6 address 2400:cb00:2048:1::6812:3e92
+```
+
+```
+host -t NS hiiamyes.com
+
+hiiamyes.com name server ns4.linode.com.
+hiiamyes.com name server ns5.linode.com.
+hiiamyes.com name server ns1.linode.com.
+hiiamyes.com name server ns3.linode.com.
+hiiamyes.com name server ns2.linode.com.
+```
