@@ -43,6 +43,10 @@
 
 Sitelinks
 - https://support.google.com/webmasters/answer/47334
+- We only show sitelinks for results when we think they'll be useful to the user.
+- If the structure of your site doesn't allow our algorithms to find good sitelinks, or we don't think that the sitelinks for your site are relevant for the user's query, we won't show them.
+- At the moment, sitelinks are automated.
+- There are best practices you can follow, however, to improve the quality of your sitelinks. For example, for your site's internal links, make sure you use anchor text and alt text that's informative, compact, and avoids repetition.
 
 
 
