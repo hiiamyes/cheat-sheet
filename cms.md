@@ -2,8 +2,9 @@
 ## static CMS
 
 - forestry
-- contentful
+- [Contentful](https://www.contentful.com/)
 - netlify cms
+- [GraphCMS](https://graphcms.com/)
 
 
 ##
