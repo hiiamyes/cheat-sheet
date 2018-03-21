@@ -38,7 +38,11 @@
   
 11. Canonical Tags and Duplicate Content
 
-  - sitelink
+
+##
+
+Sitelinks
+- https://support.google.com/webmasters/answer/47334
 
 
 
