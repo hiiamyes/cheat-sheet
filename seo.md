@@ -52,3 +52,5 @@ Sitelinks
 
 ## reference
 - [Weebly SEO](https://www.weebly.com/seo/)
+- [Search Engine Optimization (SEO) Starter Guide](https://support.google.com/webmasters/answer/7451184)
+
