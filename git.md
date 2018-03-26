@@ -13,7 +13,7 @@ build
 [alias]
 	acn = !git add . && git commit -n
 	fdr = !git fetch origin develop:develop && git rebase -i develop
-	bmd = !git branch --merged | egrep -v "(^\*|master|dev|sprint)" | xargs git branch -d
+	bmd = "!git branch --merged | egrep -v '^\\*|master|dev|sprint' | xargs git branch -d"
 	gp = !git push origin HEAD // push current branch
 ```
 
