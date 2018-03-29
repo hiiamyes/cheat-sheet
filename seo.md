@@ -35,9 +35,12 @@
     - tip, type site:www.yourdomain.com into Google to find indexed pages
   
 10. Robots.txt and Robots Meta Tags
+    - For non-sensitive information, block unwanted crawling by using robots.txt
   
 11. Canonical Tags and Duplicate Content
 
+12. Preferred Domain (Google Webmaster Tools)
+    - If you specify your preferred domain as http://www.example.com and we find a link to http://example.com, we'll consider both links the same. Learn more about setting a preferred domain.
 
 ##
 
