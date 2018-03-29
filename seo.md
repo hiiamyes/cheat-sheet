@@ -34,6 +34,7 @@
     - You can submit your sitemap directly to Google through Google Search Console to make sure Google finds and crawls all your pages. 
     - tip, type site:www.yourdomain.com into Google to find indexed pages
     - [sitemaps.org](https://www.sitemaps.org/index.html)
+    - [Learn about sitemaps](https://support.google.com/webmasters/answer/156184?hl=en)
   
 10. Robots.txt and Robots Meta Tags
     - For non-sensitive information, block unwanted crawling by using robots.txt
