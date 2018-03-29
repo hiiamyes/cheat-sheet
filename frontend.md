@@ -20,3 +20,6 @@
 ### Animation 
 - [popmotion](https://popmotion.io/)
 - [react-motion](https://github.com/chenglou/react-motion)
+
+### Lazy-Loading
+- [react-lazyload](https://github.com/jasonslyvia/react-lazyload)
