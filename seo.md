@@ -33,6 +33,7 @@
     - Sitemaps help Google and other search engines find and index your content quickly.
     - You can submit your sitemap directly to Google through Google Search Console to make sure Google finds and crawls all your pages. 
     - tip, type site:www.yourdomain.com into Google to find indexed pages
+    - [sitemaps.org](https://www.sitemaps.org/index.html)
   
 10. Robots.txt and Robots Meta Tags
     - For non-sensitive information, block unwanted crawling by using robots.txt
