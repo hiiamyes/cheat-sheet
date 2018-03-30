@@ -29,3 +29,4 @@
 #### Country Code 
 - [ISO-3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country codes
 - [Emoji flag symbols](https://apps.timwhitlock.info/emoji/tables/iso3166)
+- [flag-icon-css](https://github.com/lipis/flag-icon-css)
