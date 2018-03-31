@@ -45,6 +45,10 @@
 - Content-Type
   - MIME type
     - Multipurpose Internet Mail Extensions (MIME) type
+      - type/subtype
+      - case-insensitive but traditionally is written all in lower case
+      - Discrete types
+      - Multipart types
 
 #### CORS
 
