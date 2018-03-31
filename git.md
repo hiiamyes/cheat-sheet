@@ -30,6 +30,7 @@ export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 ```
 
 ## git-completion and git-prompt
+
 https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Auto-Completion
 https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 https://gist.github.com/ivanoats/1823034
@@ -53,3 +54,15 @@ fi
 
 export PS1
 ```
+
+##
+
+`git remote add origin git@github.com:hiiamyes/portfolio`
+
+`git branch`
+
+`git fetch origin/master`
+
+`git merge`
+
+`git pull` = git fetch + git merge
