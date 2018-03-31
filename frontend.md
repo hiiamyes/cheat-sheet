@@ -31,3 +31,8 @@
 - [ISO-3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country codes
 - [Emoji flag symbols](https://apps.timwhitlock.info/emoji/tables/iso3166)
 - [flag-icon-css](https://github.com/lipis/flag-icon-css)
+
+
+### SEO
+- [fetch and render in google webmaster tools not working](https://github.com/prerender/prerender/issues/120#issuecomment-305216710)
+  The crawlers do access the `_escaped_fragment_` URLs, but Fetch as Google has a bug where they don't. So you have to manually enter the `?_escaped_fragment_= query parameter when using Fetch as Google, but the normal Googlebot does not have that issue.
