@@ -61,6 +61,7 @@
 - jest
 
 ### Assertion Library
+- Chai
 
 ### mocking framework
 - Sinon
