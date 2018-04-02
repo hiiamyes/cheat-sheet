@@ -60,5 +60,7 @@
 - mocha
 - jest
 
-### 
-- sinon
+### Assertion Library
+
+### mocking framework
+- Sinon
