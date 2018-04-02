@@ -51,4 +51,14 @@
       - Multipart types
 
 #### CORS
+- XMLHttpRequest
+  - withCredentials: for enabling cookie setting
 
+## Testing
+
+### Framework
+- mocha
+- jest
+
+### 
+- sinon
