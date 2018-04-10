@@ -5,7 +5,7 @@
 
 - [Contentful](https://www.contentful.com/) 覺得滿漂亮好用的，但超貴
   
-- netlify cms
+- [Netlify CMS](https://www.netlifycms.org/)
 
 - [GraphCMS](https://graphcms.com/) 有點醜... 雖然是用 Material Design 整套下去做的，功能上和 Contentful 感覺沒差多少，除了有個 API Explorer
 
