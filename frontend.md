@@ -74,4 +74,4 @@
 - 
 #### Async / Side Effect Handler
 - redux-thunk: basic and simple one
-- redux-saga: easy to write test
+- [redux-saga](https://github.com/redux-saga/redux-saga): easy to write test
