@@ -65,3 +65,13 @@
 
 ### mocking framework
 - Sinon
+
+
+### Redux
+#### Actions Creator
+- The most painful point: need to write tons of actions manually! So try some lib to auto-generate those.
+- redux-actions: not that usefult
+- 
+#### Async / Side Effect Handler
+- redux-thunk: basic and simple one
+- redux-saga: easy to write test
