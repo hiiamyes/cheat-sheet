@@ -71,6 +71,7 @@
 #### Actions Creator
 - The most painful point: need to write tons of actions manually! So try some lib to auto-generate those.
 - redux-actions: not that usefult
+- [redux-saga-routine](https://github.com/afitiskin/redux-saga-routines)
 - 
 #### Async / Side Effect Handler
 - redux-thunk: basic and simple one
