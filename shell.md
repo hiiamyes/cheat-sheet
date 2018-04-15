@@ -111,3 +111,17 @@ kill PID
 ```
 kill $(lsof -t -i:8080)
 ```
+
+
+### ssh
+
+```
+// ~/.bash_profile
+alias yes-linode="ssh username@ip"
+```
+
+https://linux.die.net/man/1/scp
+https://medium.com/@hiiamyes/linode-59e7787e31c
+```
+scp src-file-path username@ip:dest-file-path
+```
