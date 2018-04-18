@@ -17,8 +17,8 @@ Tests written to check software functionality can be grouped into a few categori
 
 ### Mock
 
- [Sinon](https://github.com/sinonjs/sinon)
-
+[Sinon](https://github.com/sinonjs/sinon)
+[Faker](https://github.com/Marak/Faker.js)
 
 ## E2E Test
 https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
