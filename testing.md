@@ -18,3 +18,7 @@ Tests written to check software functionality can be grouped into a few categori
 ### Mock
 
  [Sinon](https://github.com/sinonjs/sinon)
+
+
+## E2E Test
+https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
