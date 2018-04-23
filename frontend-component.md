@@ -9,3 +9,6 @@
 ## Table
 
 ## Form
+
+## Text Truncate
+- [shave](https://github.com/dollarshaveclub/shave)
