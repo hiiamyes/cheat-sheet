@@ -25,6 +25,10 @@
 - [react-lazyload](https://github.com/jasonslyvia/react-lazyload)
 
 ### i18n
+- [i18next](https://github.com/i18next/i18next)
+- [react-i18next](https://github.com/i18next/react-i18next)
+- language tags
+  - [wiki](https://en.wikipedia.org/wiki/Language_localisation): There are multiple language tag systems available for language codification. For example, the International Organization for Standardization (ISO) specifies both two- and three-letter codes to represent languages in standards ISO 639-1 and ISO 639-2, respectively. 
 
 #### Country Code 
 - [ISO](https://www.iso.org/obp/ui/#search/code/)
