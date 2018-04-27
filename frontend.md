@@ -1,3 +1,7 @@
+## parallax scroll
+- `background-attachment: fixed;` // not works yet on ios
+- [jarallax](https://github.com/nk-o/jarallax)
+
 
 ## Navigation / Redirection / Frontend Routing
 - location: window.location is the same as window.location.href, in terms of behavior. window.location returns an object. If .href is not set, window.location defaults to change the parameter .href. Conclude: Use either one is fine.
