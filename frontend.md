@@ -3,9 +3,13 @@
 ## Optimize Images
 - https://developers.google.com/speed/docs/insights/OptimizeImages
 
+- [ImageMagick]()
 For example, you can use convert binary to optimize your JPEG images with the following command (parameters inside brackets are optional):
 
 `convert INPUT.jpg -sampling-factor 4:2:0 -strip [-resize WxH] [-quality N] [-interlace JPEG] [-colorspace Gray/sRGB] OUTPUT.jpg`
+
+- [sharp](https://github.com/lovell/sharp)
+
 
 
 
