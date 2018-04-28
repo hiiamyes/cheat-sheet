@@ -1,7 +1,21 @@
+# Performance
+
+## Optimize Images
+- https://developers.google.com/speed/docs/insights/OptimizeImages
+
+For example, you can use convert binary to optimize your JPEG images with the following command (parameters inside brackets are optional):
+
+`convert INPUT.jpg -sampling-factor 4:2:0 -strip [-resize WxH] [-quality N] [-interlace JPEG] [-colorspace Gray/sRGB] OUTPUT.jpg`
+
+
+
+# Animation
+
 ## parallax scroll
 - `background-attachment: fixed;` // not works yet on ios
 - [jarallax](https://github.com/nk-o/jarallax)
 
+# Basic
 
 ## Navigation / Redirection / Frontend Routing
 - location: window.location is the same as window.location.href, in terms of behavior. window.location returns an object. If .href is not set, window.location defaults to change the parameter .href. Conclude: Use either one is fine.
