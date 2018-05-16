@@ -55,3 +55,30 @@ https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intell
 F1 > Preferences: Open User Snippets > Javascript React
 
 
+## setting.json
+
+```
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
+```
+
+## launch.json
+
+### debug!
+```
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5888",
+      "webRoot": "${workspaceRoot}/react/src"
+    }
+  ]
+}
+```
