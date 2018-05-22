@@ -66,3 +66,16 @@ export PS1
 `git merge`
 
 `git pull` = git fetch + git merge
+
+
+# Revert previous speficif file
+`git checkout {commit} {path/to/the/file}`
+
+# Split previous commit into multiple commits
+`git rebase -i <commit>^`
+`edit`
+`git reset HEAD^`
+`git add`
+`git commit`
+`git rebase --continue`
+https://stackoverflow.com/questions/6217156/break-a-previous-commit-into-multiple-commits
