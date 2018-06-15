@@ -10,5 +10,6 @@
 
 ## Form
 
-## Text Truncate
+## Text Truncate / Line Clamping
 - [shave](https://github.com/dollarshaveclub/shave)
+- [Clamp.js](https://github.com/josephschmitt/Clamp.js/)
