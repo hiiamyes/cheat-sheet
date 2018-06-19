@@ -25,6 +25,9 @@ https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
 
 
 ## Tools
+
 [Katalon Recoder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid/related)
+
 [Katalon](https://www.katalon.com/)
+
 [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en)
