@@ -15,3 +15,6 @@
 ## Text Truncate / Line Clamping
 - [shave](https://github.com/dollarshaveclub/shave)
 - [Clamp.js](https://github.com/josephschmitt/Clamp.js/)
+
+## Image 
+- [Cropperjs](https://github.com/fengyuanchen/cropperjs)
