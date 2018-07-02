@@ -31,3 +31,5 @@ https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
 [Katalon](https://www.katalon.com/)
 
 [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en)
+
+[cypress](https://www.cypress.io/)
