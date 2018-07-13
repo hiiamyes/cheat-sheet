@@ -11,6 +11,8 @@
 ## Form
 - [Formik](https://github.com/jaredpalmer/formik)
 
+### Object schema validation
+- [Yup](https://github.com/jquense/yup)
 
 ## Text Truncate / Line Clamping
 - [shave](https://github.com/dollarshaveclub/shave)
