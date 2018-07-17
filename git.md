@@ -8,6 +8,10 @@ build
 ## .gitconfig
 
 ```
+vim ~/.gitconfig
+```
+
+```
 [user]
 	name = yes
 [alias]
