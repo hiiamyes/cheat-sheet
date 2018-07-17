@@ -19,6 +19,9 @@ For example, you can use convert binary to optimize your JPEG images with the fo
 - `background-attachment: fixed;` // not works yet on ios
 - [jarallax](https://github.com/nk-o/jarallax)
 
+## scroll reveal
+- [scrollreveal](https://github.com/jlmakes/scrollreveal)
+
 # Basic
 
 ## Navigation / Redirection / Frontend Routing
