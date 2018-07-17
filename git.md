@@ -19,6 +19,7 @@ vim ~/.gitconfig
 	fdr = !git fetch origin develop:develop && git rebase -i develop
 	bmd = !git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d // branch merged delete
 	gp = !git push origin HEAD // push current branch
+	poh = !git push origin HEAD
 ```
 
 ## terminal (deprecated)
