@@ -11,6 +11,10 @@
 
 - [Prismic](https://prismic.io/)
 
+[Picking a back-end for GatsbyJS | GatsbyJS](https://www.gatsbyjs.org/blog/2018-2-6-choosing-a-back-end/)
+Best of the rest - Prismic.io & Cockpit
+Prismic is sort of a Contentful-like service that does basically the same thing with a few differences. I’m greeted to a post-type-creator similar to Contentful’s, I can create an editor with a number of fields similar such as Title, Body, Image, Location, Link, Color.
+
 - [Gentics Mesh](https://github.com/gentics/mesh) The open source headless CMS for developers
 
 ##
