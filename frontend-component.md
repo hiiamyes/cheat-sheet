@@ -14,6 +14,7 @@
 ### Form validation / Object schema validation
 - [Yup](https://github.com/jquense/yup)
 - [async-validator](https://github.com/yiminghe/async-validator)
+- [v8n](https://github.com/imbrn/v8n)
 
 ## Text Truncate / Line Clamping
 - [shave](https://github.com/dollarshaveclub/shave)
