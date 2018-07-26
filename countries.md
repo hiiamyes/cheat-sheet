@@ -1,5 +1,6 @@
 # Standard
-- ISO 3166
+- [ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
+  - https://www.iso.org/obp/ui/#search
 
 # Attributes
 - country code
