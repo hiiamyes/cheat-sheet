@@ -21,3 +21,7 @@ https://docs.npmjs.com/getting-started/updating-local-packages
 - ^version "Compatible with version" See semver
 
 https://docs.npmjs.com/files/package.json
+
+
+## Show Version
+`yarn info antd version`
