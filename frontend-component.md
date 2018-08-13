@@ -27,3 +27,6 @@
 
 ## Image 
 - [Cropperjs](https://github.com/fengyuanchen/cropperjs)
+
+## Dropdown / Select / Search
+- [Downshift](https://github.com/paypal/downshift)
