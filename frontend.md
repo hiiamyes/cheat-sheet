@@ -127,3 +127,25 @@ window.location.href = "http://stackoverflow.com";
 
 ### Input
 [text-mask](https://github.com/text-mask/text-mask)
+
+
+# React 
+## HOC, Higher Order Component
+### Decorator
+
+babel 6
+
+```sh
+yarn add babel-plugin-transform-decorators-legacy
+
+// .babelrc
+{
+  "plugins": ["transform-decorators-legacy"]
+}
+```
+
+```js
+@withRouter
+@connect()
+class ComponentWithHOC extend React.Component {}
+```
