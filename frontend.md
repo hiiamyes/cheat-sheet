@@ -125,8 +125,29 @@ window.location.href = "http://stackoverflow.com";
 
 ## Form
 
+### Design Pattern
+- Leverage html form
+ - Make sure to do e.preventDefault() while using onSubmit of form in SPA
+- Leverage a visibility hidden button for click to submit feature
+- Better to have self-hosted state (two ways data binding?)
+- Better to have self-hosted validation (base on self-hosted state)
+- Better to have field-based composable form structure
+
 ### Input
 [text-mask](https://github.com/text-mask/text-mask)
+
+## Keyboard Shortcut
+
+### Why Keyboard Shortcut
+
+- Convenient for desktop device
+- Useless for mobile and laptop device
+
+### Design Pattern
+
+- Make sure to disable shortcut while input is in focus.
+- Better to have a tooltip for hint, or to have a dedicated shortcut page, section, etc.
+
 
 
 # React 
