@@ -46,6 +46,17 @@ module.exports = {
 }
 ```
 
+or
+
+````
+// webpack.config.js
+module.exports = {
+  alias: {
+    src: path.resolve(__dirname, "src/")
+  },
+}
+```
+
 path intellisense
 https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
 
