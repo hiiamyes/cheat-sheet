@@ -1,5 +1,6 @@
 # Error Tracking
 - [Sentry](https://sentry.io/welcome/)
+- [Honeybadger](https://www.honeybadger.io/)
 
 # RWD
 - [ua-parser-js](https://github.com/faisalman/ua-parser-js)
