@@ -1,3 +1,6 @@
+# Email Generator
+- [MJMI](https://mjml.io/)
+
 # Error Tracking
 - [Sentry](https://sentry.io/welcome/)
 - [Honeybadger](https://www.honeybadger.io/)
