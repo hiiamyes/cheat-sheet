@@ -30,6 +30,11 @@ https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
 
 # Jest Get Started
 
+## GatsbyJS
+https://www.gatsbyjs.org/docs/unit-testing/
+
+## React SAP 
+
 ```
 npm i jest babel-jest raf enzyme enzyme-adapter-react-16
 ```
