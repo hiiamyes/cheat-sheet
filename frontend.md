@@ -1,3 +1,6 @@
+# i18n
+- [Crowdin](https://crowdin.com/)
+
 # Email Generator
 - [MJMI](https://mjml.io/)
 
