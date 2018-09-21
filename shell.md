@@ -12,7 +12,7 @@ variable
 
 makes file executable
 
-`chmod + x shell-script.sh`
+`chmod +x shell-script.sh`
 
 list files with permission info
 
