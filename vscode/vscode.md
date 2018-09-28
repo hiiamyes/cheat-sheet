@@ -19,9 +19,9 @@ config
 
 
 ## Import Path, Base Url
-https://github.com/Microsoft/vscode/issues/9135
-https://blog.andrewray.me/autocomplete-es-modules-webpack-vscode/
-https://code.visualstudio.com/docs/languages/jsconfig#_jsconfig-options
+- https://github.com/Microsoft/vscode/issues/9135
+- https://blog.andrewray.me/autocomplete-es-modules-webpack-vscode/
+- https://code.visualstudio.com/docs/languages/jsconfig#_jsconfig-options
 
 ```
 // jsconfig.json in project's root
@@ -48,7 +48,7 @@ module.exports = {
 
 or
 
-````
+```
 // webpack.config.js
 module.exports = {
   alias: {
