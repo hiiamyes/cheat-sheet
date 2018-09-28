@@ -17,6 +17,7 @@ Tests written to check software functionality can be grouped into a few categori
 
 [Sinon](https://github.com/sinonjs/sinon)
 [Faker](https://github.com/Marak/Faker.js)
+[nock](https://github.com/nock/nock) - Http server mocking
 
 # E2E Test
 https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
