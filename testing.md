@@ -39,6 +39,17 @@ https://www.gatsbyjs.org/docs/unit-testing/
 npm i jest babel-jest raf enzyme enzyme-adapter-react-16
 ```
 
+# React Testing
+
+## Unit Test
+Jest + Enzyme
+
+## Integration Test
+Jest + [react-testing-library](https://github.com/kentcdodds/react-testing-library)
+
+# Ref
+https://medium.com/homeaway-tech-blog/integration-testing-in-react-21f92a55a894
+
 
 
 
