@@ -1,3 +1,8 @@
+# Resolution
+- 1366 x 768: 26.91%
+- 1920 x 1080: 20.05%
+- http://gs.statcounter.com/screen-resolution-stats/desktop/worldwide#monthly-201709-201809
+
 # Tools
 
 ## 
