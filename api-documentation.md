@@ -2,6 +2,7 @@
 - raml
 - openapi 2.0 (swagger)
 - openapi 3.0
+  - [Specification](https://swagger.io/docs/specification/about/)
   - [Schema](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md#schema)
 
 OpenAPI = Specification
