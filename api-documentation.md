@@ -10,3 +10,12 @@
 # Doc
 - [Slate](https://github.com/lord/slate)
 - [ReDoc](https://github.com/Rebilly/ReDoc)
+
+# Requirement
+- Spec Source
+-- Openapi 3.0
+-- Not Markdown
+- Search
+- Table of content (TOC)
+- Development
+-- Watch
