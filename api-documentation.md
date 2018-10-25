@@ -28,4 +28,6 @@ https://swagger.io/blog/api-strategy/difference-between-swagger-and-openapi/
   - Spec Source
     - Openapi 3.0
     - ~Markdown~
+  - Seperate Files
+    - $ref resolver
   - Watch
