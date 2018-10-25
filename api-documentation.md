@@ -15,10 +15,13 @@
 - [openapi gui](https://mermade.github.io/openapi-gui/)
 
 # Requirement
-- Spec Source
--- Openapi 3.0
--- Not Markdown
-- Search
-- Table of content (TOC)
+- Functionality
+  - Search
+  - Table of content (TOC)
+  - Semantic API summary name
+  - Printable?
 - Development
--- Watch
+  - Spec Source
+    - Openapi 3.0
+    - ~Markdown~
+  - Watch
