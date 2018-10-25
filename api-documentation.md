@@ -24,6 +24,7 @@ https://swagger.io/blog/api-strategy/difference-between-swagger-and-openapi/
   - Table of content (TOC)
   - Semantic API summary name
   - Printable?
+  - Discriminator?
 - Development
   - Spec Source
     - Openapi 3.0
