@@ -30,4 +30,5 @@ https://swagger.io/blog/api-strategy/difference-between-swagger-and-openapi/
     - ~Markdown~
   - Seperate Files
     - $ref resolver
+      - https://github.com/Rebilly/ReDoc/issues/541
   - Watch
