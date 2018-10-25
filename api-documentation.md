@@ -18,6 +18,7 @@ https://swagger.io/blog/api-strategy/difference-between-swagger-and-openapi/
 
 # Requirement
 - Functionality
+  - Auth?
   - Search
   - Table of content (TOC)
   - Semantic API summary name
