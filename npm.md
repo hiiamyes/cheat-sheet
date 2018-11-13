@@ -25,3 +25,6 @@ https://docs.npmjs.com/files/package.json
 
 ## Show Version
 `yarn info antd version`
+
+## npm scope
+[@fortawesome/free-solic-svg-icons](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons)
