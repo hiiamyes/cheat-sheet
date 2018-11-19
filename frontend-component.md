@@ -2,6 +2,12 @@
 - [antd]
 - [evergreen](https://github.com/segmentio/evergreen)
 
+## Button
+- Should have throttle / debounce
+- Should have loading state
+- Hover state
+- States: default, hover, active, loading, disable, selected?
+
 ## Drive user focus 
 - [Driver.js](http://kamranahmed.info/driver)
 
