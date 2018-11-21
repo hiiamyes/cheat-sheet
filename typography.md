@@ -10,3 +10,6 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
 ```
 font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", "Ubuntu Mono", Menlo, Courier, monospace;
 ```
+
+- [normalize.css](https://github.com/necolas/normalize.css/issues/665)
+- [system font stack](https://css-tricks.com/snippets/css/system-font-stack/)
