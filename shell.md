@@ -1,3 +1,6 @@
+# Get the absolute path
+https://www.ostricher.com/2014/10/the-right-way-to-get-the-directory-of-a-bash-script/
+
 # #!/bin/sh
 It's called a shebang, and tells the parent shell which interpreter should be used to execute the script.
 
