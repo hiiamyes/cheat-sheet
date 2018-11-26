@@ -70,12 +70,13 @@ version=$(node -e "console.log(require('./package.json').version)")
 
 https://stackoverflow.com/a/20983251
 
-```
 Call tput as part of a sequence of commands:
 
-tput setaf 1; echo "this is red text"
-Use ; instead of && so if tput errors the text still shows.
 ```
+tput setaf 1; echo "this is red text"
+```
+
+Use `;` instead of `&&` so if `tput` errors the text still shows.
 
 ```
 Num  Colour    #define         R G B
