@@ -1,3 +1,13 @@
+# #!/bin/sh
+It's called a shebang, and tells the parent shell which interpreter should be used to execute the script.
+
+e.g.
+
+#!/usr/bin/perl   <--perl script'
+#!/usr/bin/php <-- php script
+#!/bin/false <--- do-nothing script, because false returns immediately anyways.
+It's implemented as a comment so that anything coming in that line will not "relevant" to the interpreter specified. e.g. all scripting languages tend to understand that a line starting with # is a comment, and will ignore the !/usr/bin/whatever portion, which might otherwise be a syntax error in that particular language.
+
 
 # UNIX command interpreter (shell)
 
