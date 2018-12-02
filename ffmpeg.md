@@ -24,3 +24,15 @@ This is not mentioned in the output when using the defaults, but can be found in
 - `-pattern_type glob -i '*.JPG'` - all JPG files in the current directory
 - `-i DSC_%04d.JPG` - e.g. DSC_0397.JPG
 - `-s hd1080` - 1920x1080 resolution
+
+
+[Padding]
+[FFMPEG scale video to 720px, add black fields at the top and bottom and output 720x1280 (portrait) [duplicate]](https://superuser.com/questions/1271758/ffmpeg-scale-video-to-720px-add-black-fields-at-the-top-and-bottom-and-output-7)
+
+The method below assumes that the source aspect ratio isn't greater than 720/1280.
+
+```
+ffmpeg -i in.mp4 -vf scale=720:1280:force_original_aspect_ratio=decrease,pad=720:1280:(ow-iw)/2:(oh-ih)/2,setsar=1 out.mp4
+```
+
+The force_original_aspect_ratio in the scale 'fits' the video within the dimensions specified. The pad then expands the canvas to get the size desired.
