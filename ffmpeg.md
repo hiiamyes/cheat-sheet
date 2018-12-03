@@ -2,6 +2,8 @@
 
 # timelapse video
 
+My post... https://medium.com/@hiiamyes/using-ffmpeg-to-make-time-lapse-video-391f5ea8cc6b
+
 [scale](https://stackoverflow.com/questions/44634765/ffmpeg-aspect-ratio-of-image-in-a-slideshow)
 
 ```
