@@ -2,6 +2,13 @@
 
 # timelapse video
 
+[scale](https://stackoverflow.com/questions/44634765/ffmpeg-aspect-ratio-of-image-in-a-slideshow)
+
+```
+ffmpeg -f image2 -pattern_type glob -framerate 30 -i 'G0*.JPG' -vf "scale=3840x2160:force_original_aspect_ratio=decrease,pad=3840:2160:(ow-iw)/2:(oh-ih)/2,setsar=1" -vcodec libx264 -pix_fmt yuv420p test6.mp4
+```
+
+
 ```
 ffmpeg -f image2 -pattern_type glob -framerate 30 -i 'G0*.JPG' -s 3840x2160 -vcodec libx264 -pix_fmt yuv420p test4.mp4
 ```
