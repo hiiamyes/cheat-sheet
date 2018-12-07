@@ -1,8 +1,14 @@
 # i18n
 - [Crowdin](https://crowdin.com/)
 
-# Email Generator
+# Email 
+
+## Generator
 - [MJMI](https://mjml.io/)
+
+## SAAS
+- [Litmus](http://litmus.com/)
+- [Sendgrid](https://sendgrid.com/)
 
 # Error Tracking
 - [Sentry](https://sentry.io/welcome/)
