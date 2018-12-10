@@ -21,6 +21,8 @@
 - [json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser)
 - [swagger-parser](https://github.com/APIDevTools/swagger-parser)
 
+https://azimi.me/2015/07/16/split-swagger-into-smaller-files.html
+
 # Requirement
 - Functionality
   - Auth?
