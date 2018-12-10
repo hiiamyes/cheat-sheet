@@ -18,6 +18,8 @@
 
 # Tool
 - [openapi gui](https://mermade.github.io/openapi-gui/)
+- [json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser)
+- [swagger-parser](https://github.com/APIDevTools/swagger-parser)
 
 # Requirement
 - Functionality
