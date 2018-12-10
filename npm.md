@@ -40,6 +40,7 @@ For our team, this appears to have resolved the issue (or its current incarnatio
 1. Clean your npm cache: npm cache clean --force
 1. Revert the changes in your package-lock.json file (and this file only).
 1. Install dependencies again: npm i
-1. While this might be a bit heavy handed, it did solve the issue I was seeing and the integrity hash diffs went away.
+
+While this might be a bit heavy handed, it did solve the issue I was seeing and the integrity hash diffs went away.
 
 Other reporters can try this and share results. Maybe we can learn more about the root cause.
