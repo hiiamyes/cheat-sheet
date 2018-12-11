@@ -44,3 +44,11 @@ For our team, this appears to have resolved the issue (or its current incarnatio
 While this might be a bit heavy handed, it did solve the issue I was seeing and the integrity hash diffs went away.
 
 Other reporters can try this and share results. Maybe we can learn more about the root cause.
+
+# package from Github
+
+```
+npm install --save username/repo#branch-name
+```
+
+https://medium.com/@jonchurch/use-github-branch-as-dependency-in-package-json-5eb609c81f1a
