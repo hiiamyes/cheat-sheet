@@ -52,3 +52,5 @@ npm install --save username/repo#branch-name
 ```
 
 https://medium.com/@jonchurch/use-github-branch-as-dependency-in-package-json-5eb609c81f1a
+
+[npm install](https://docs.npmjs.com/cli/install)
