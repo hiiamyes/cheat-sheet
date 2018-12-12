@@ -29,7 +29,16 @@ https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
 - [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en)
 - [cypress](https://www.cypress.io/)
 
-# Jest Get Started
+# Jest 
+
+## test 1 test
+
+## watch
+
+```
+jest --watch
+```
+
 
 ## GatsbyJS
 https://www.gatsbyjs.org/docs/unit-testing/
