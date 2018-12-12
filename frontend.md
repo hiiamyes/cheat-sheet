@@ -10,6 +10,10 @@
 - [Litmus](http://litmus.com/)
 - [Sendgrid](https://sendgrid.com/)
 
+## plain text email
+https://litmus.com/blog/best-practices-for-plain-text-emails-a-look-at-why-theyre-important
+
+
 # Error Tracking
 - [Sentry](https://sentry.io/welcome/)
 - [Honeybadger](https://www.honeybadger.io/)
