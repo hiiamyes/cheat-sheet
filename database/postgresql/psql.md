@@ -1,3 +1,35 @@
+# Mac (Deprecated)
+
+```
+brew install postgresql
+brew list
+
+psql --version
+
+ps auxwww | grep postgres
+```
+
+https://stackoverflow.com/a/7975660/1860639
+
+The Homebrew package manager includes launchctl plists to start automatically. For more information run brew info postgres.
+
+Start manually:
+```
+pg_ctl -D /usr/local/var/postgres start
+```
+Stop manually:
+```
+pg_ctl -D /usr/local/var/postgres stop
+```
+Start automatically:
+
+"To have launchd start postgresql now and restart at login:"
+```
+brew services start postgresql
+```
+
+
+
 https://www.postgresql.org/docs/9.2/static/app-psql.html
 https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
 http://postgresguide.com/utilities/psql.html
@@ -5,9 +37,10 @@ http://postgresguide.com/utilities/psql.html
 `\dt *.*`: List tables from all schemas (if _._ is omitted will only show SEARCH_PATH ones)
 
 
+# Docker
+
 # Start a postgresql
 
-docker
 ```
 docker run --rm --name pg-docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 -v $HOME/docker/volumes/postgres:/var/lib/postgresql/data postgres
 
