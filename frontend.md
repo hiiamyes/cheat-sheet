@@ -149,6 +149,13 @@ window.location.href = "http://stackoverflow.com";
 - Better to have self-hosted state (two ways data binding?)
 - Better to have self-hosted validation (base on self-hosted state)
 - Better to have field-based composable form structure
+- Better to leverage `autofocus` of the first input 
+- Better to auto open the options while the select is focused
+
+### Modal Form
+- Autofocus
+ - Would be a bit tricky while the form is in the modal (the dom may not be rendered?)
+ - Make sure to destory the DOM of the form so that autofocus works every time the modal is toggled
 
 ### Input
 [text-mask](https://github.com/text-mask/text-mask)
