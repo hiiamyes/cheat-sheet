@@ -86,3 +86,24 @@ git commit
 git rebase --continue
 ```
 https://stackoverflow.com/questions/6217156/break-a-previous-commit-into-multiple-commits
+
+
+# [Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+Add submodule
+```
+git submodule add git@github.com:hiiamyes/cheat-sheet.git
+```
+
+Pull submodule code
+```
+git submodule init
+git submodule update
+```
+
+Remove submodule
+```
+git submodule deinit [module]
+rm -rf [module]
+rm -rf .git/modules/[module]
+```
