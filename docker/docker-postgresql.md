@@ -1,13 +1,16 @@
-[Dockerize PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/)
-[library/postgres - Docker Hub](https://hub.docker.com/_/postgres/)
+- [Dockerize PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/)
+- [library/postgres - Docker Hub](https://hub.docker.com/_/postgres/)
+- [docker run](https://docs.docker.com/v17.12/edge/engine/reference/commandline/run/#usage)
 
-## image
+# image
 
 `$ docker pull postgres`
 
 `$ docker run --name yes-postgres -e POSTGRES_PASSWORD=yes -d postgres`
 
 `$ docker run -it --rm --link yes-postgres:postgres postgres psql -h postgres -U postgres`
+
+`--env , -e`:	Set environment variables
 
 `--interactive, -i`: Keep STDIN open even if not attached.
 
