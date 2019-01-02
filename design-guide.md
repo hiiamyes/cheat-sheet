@@ -17,3 +17,12 @@
 
 Prefered features:
 Search, Autogen proptype doc
+
+# List of data
+
+- Table
+- Add data
+- Edit / delete data
+- Bulk editing
+- Pagination
+
