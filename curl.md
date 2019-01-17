@@ -15,5 +15,7 @@ curl http://localhost:3000/users
 
 # Post
 ```
-curl -X POST http://localhost:3000/signup
+curl -i -X POST http://localhost:3000/signup
 ```
+- --include, -i: All HTTP replies contain a set of response headers that are normally hidden, use curl's --include (-i) option to display them as well as the rest of the document.
+- --request, -X : Change the method keyword curl selects.
