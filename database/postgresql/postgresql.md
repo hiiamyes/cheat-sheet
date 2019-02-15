@@ -46,3 +46,8 @@ $ brew services stop postgresql
 $ rm /usr/local/var/postgres/postmaster.pid # adjust path accordingly to your install
 $ brew services start postgresql
 ```
+
+# Migration
+- [db-migrate](https://github.com/db-migrate/node-db-migrate)
+- [node-pg-migrate](https://github.com/salsita/node-pg-migrate)
+- [sqitch](https://github.com/sqitchers/sqitch)
