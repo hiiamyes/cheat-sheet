@@ -1,3 +1,25 @@
+
+## docker compose
+
+```
+web:
+  build: .
+  ports:
+    - "3001"
+  links:
+    - redis
+redis:
+  image: redis:alpine
+  volumes:
+    - /var/redis/data:/data
+```
+
+`docker-compose up -d`
+`docker-compose stop`
+`docker-compose rm`
+
+
+
 `docker search redis` // existing images can be found at registry.hub.docker.com
 
 `docker run -d redis` // start a container with redis image and run in the background(`-d`)
