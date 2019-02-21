@@ -25,3 +25,6 @@ services:
       POSTGRES_PASSWORD: postgres
 
 ```
+
+# CI/CD
+https://stackoverflow.com/questions/42302632/docker-compose-continuous-deployment-setup
