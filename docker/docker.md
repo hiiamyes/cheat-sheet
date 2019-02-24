@@ -39,3 +39,10 @@ or
 ```
 sudo docker exec -i -t loving_heisenberg /bin/bash
 ```
+
+# Copy file from container to host
+https://stackoverflow.com/questions/22049212/copying-files-from-docker-container-to-host
+```
+docker cp <containerId>:/file/path/within/container /host/path/target
+```
+
