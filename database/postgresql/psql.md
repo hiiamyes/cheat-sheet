@@ -68,3 +68,17 @@ psql -h localhost -U postgres -d postgres
 # IDE
 
 [Postico](https://eggerapps.at/postico/)
+
+
+# Meta-Commands
+https://www.postgresql.org/docs/9.2/app-psql.html
+
+\l (or \list)
+\l+ (or \list+)
+List the names, owners, character set encodings, and access privileges of all the databases in the server. If + is appended to the command name, database sizes, default tablespaces, and descriptions are also displayed. (Size information is only available for databases that the current user can connect to.)
+
+\q or \quit
+Quits the psql program. In a script file, only execution of that script is terminated.
+
+
+
