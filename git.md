@@ -8,6 +8,10 @@ build
 ## .gitconfig
 
 ```
+vim ~/.gitconfig
+```
+
+```
 [user]
 	name = yes
 [alias]
@@ -15,6 +19,7 @@ build
 	fdr = !git fetch origin develop:develop && git rebase -i develop
 	bmd = "!git branch --merged | egrep -v '^\\*|master|dev|sprint' | xargs git branch -d"
 	gp = !git push origin HEAD // push current branch
+	poh = !git push origin HEAD
 ```
 
 ## terminal (deprecated)
@@ -30,6 +35,7 @@ export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 ```
 
 ## git-completion and git-prompt
+
 https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Auto-Completion
 https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 https://gist.github.com/ivanoats/1823034
@@ -52,4 +58,59 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 export PS1
+```
+
+##
+
+`git remote add origin git@github.com:hiiamyes/portfolio`
+
+`git branch`
+
+`git fetch origin/master`
+
+`git merge`
+
+`git pull` = git fetch + git merge
+
+
+# Revert previous speficif file
+`git checkout {commit} {path/to/the/file}`
+
+# Split previous commit into multiple commits
+```
+git rebase -i <commit>^
+edit
+git reset HEAD^`
+git add
+git commit
+git rebase --continue
+```
+https://stackoverflow.com/questions/6217156/break-a-previous-commit-into-multiple-commits
+
+
+# [Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+Add submodule
+```
+git submodule add git@github.com:hiiamyes/cheat-sheet.git
+```
+
+Pull submodule code
+```
+git submodule init
+git submodule update
+```
+
+Remove submodule
+```
+git submodule deinit [module]
+rm -rf [module]
+rm -rf .git/modules/[module]
+```
+
+```
+git submodule deinit <path_to_submodule>
+git rm <path_to_submodule>
+git commit-m "Removed submodule "
+rm -rf .git/modules/<path_to_submodule>
 ```

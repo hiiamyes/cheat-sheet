@@ -1,3 +1,16 @@
+# Get the absolute path
+https://www.ostricher.com/2014/10/the-right-way-to-get-the-directory-of-a-bash-script/
+
+# #!/bin/sh
+It's called a shebang, and tells the parent shell which interpreter should be used to execute the script.
+
+e.g.
+
+#!/usr/bin/perl   <--perl script'
+#!/usr/bin/php <-- php script
+#!/bin/false <--- do-nothing script, because false returns immediately anyways.
+It's implemented as a comment so that anything coming in that line will not "relevant" to the interpreter specified. e.g. all scripting languages tend to understand that a line starting with # is a comment, and will ignore the !/usr/bin/whatever portion, which might otherwise be a syntax error in that particular language.
+
 
 # UNIX command interpreter (shell)
 
@@ -12,7 +25,7 @@ variable
 
 makes file executable
 
-`chmod + x shell-script.sh`
+`chmod +x shell-script.sh`
 
 list files with permission info
 
@@ -57,12 +70,13 @@ version=$(node -e "console.log(require('./package.json').version)")
 
 https://stackoverflow.com/a/20983251
 
-```
 Call tput as part of a sequence of commands:
 
-tput setaf 1; echo "this is red text"
-Use ; instead of && so if tput errors the text still shows.
 ```
+tput setaf 1; echo "this is red text"
+```
+
+Use `;` instead of `&&` so if `tput` errors the text still shows.
 
 ```
 Num  Colour    #define         R G B
@@ -110,4 +124,18 @@ kill PID
 
 ```
 kill $(lsof -t -i:8080)
+```
+
+
+### ssh
+
+```
+// ~/.bash_profile
+alias yes-linode="ssh username@ip"
+```
+
+https://linux.die.net/man/1/scp
+https://medium.com/@hiiamyes/linode-59e7787e31c
+```
+scp src-file-path username@ip:dest-file-path
 ```
