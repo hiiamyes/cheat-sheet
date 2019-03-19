@@ -76,6 +76,16 @@ export PS1
 # Revert previous speficif file
 `git checkout {commit} {path/to/the/file}`
 
+# Revert a merge commit
+
+Check the parent for reverting merge commit
+
+`git show [commit]`
+
+General case, it'll be 1
+
+`git revert -m 1 [commit]`
+
 # Split previous commit into multiple commits
 ```
 git rebase -i <commit>^
