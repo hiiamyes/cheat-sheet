@@ -45,6 +45,8 @@ https://azimi.me/2015/07/16/split-swagger-into-smaller-files.html
 readme.io 99/month
 
 # Snippet
+
+```
 /i-am-an-api:
   get:
     requestBody:
@@ -62,5 +64,5 @@ readme.io 99/month
               properties:
                 partner:
                   type: string
-                  
+```                  
                 
