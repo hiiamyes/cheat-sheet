@@ -7,7 +7,9 @@ Tests written to check software functionality can be grouped into a few categori
 The key is to find the right balance between unit, integration and end-to-end tests. According to [Google’s Testing Blog](https://testing.googleblog.com/):
 
 [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
+
 Testing Pyramid
+
 Even with both unit tests and integration tests, you probably still will want a small number of end-to-end tests to verify the system as a whole. To find the right balance between all three test types, the best visual aid to use is the testing pyramid. Here is a simplified version of the testing pyramid from the opening keynote of the 2014 Google Test Automation Conference:
 
 The bulk of your tests are unit tests at the bottom of the pyramid. As you move up the pyramid, your tests gets larger, but at the same time the number of tests (the width of your pyramid) gets smaller.
