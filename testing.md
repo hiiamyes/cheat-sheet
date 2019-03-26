@@ -4,6 +4,11 @@ Tests written to check software functionality can be grouped into a few categori
 - integration tests: check that individual pieces of your app play nicely together.
 - end-to-end tests: check that entire features work from the user’s perspective.
 
+The key is to find the right balance between unit, integration and end-to-end tests. According to [Google’s Testing Blog](https://testing.googleblog.com/):
+
+# FAQ
+- Difference between integration and end-to-end test
+-- TBD...
 
 # Framework
 
