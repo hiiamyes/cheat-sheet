@@ -43,3 +43,24 @@ https://azimi.me/2015/07/16/split-swagger-into-smaller-files.html
 
 # SAAS
 readme.io 99/month
+
+# Snippet
+/i-am-an-api:
+  get:
+    requestBody:
+      content:
+        "application/json":
+          schema:
+            required:
+    responses:
+      200:
+        content:
+          application/json:
+            schema:
+              required:
+                - partner
+              properties:
+                partner:
+                  type: string
+                  
+                
