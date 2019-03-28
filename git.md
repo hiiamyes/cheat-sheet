@@ -124,3 +124,15 @@ git rm <path_to_submodule>
 git commit-m "Removed submodule "
 rm -rf .git/modules/<path_to_submodule>
 ```
+
+# [git-blame](https://git-scm.com/docs/git-blame)
+
+blame the file with specific line number
+
+`git blame -L 150,+11 -- git-web--browse.sh
+
+# log
+
+https://stackoverflow.com/questions/8435343/retrieve-the-commit-log-for-a-specific-line-in-a-file
+
+`git log --pretty=short -u -L 155,155:git-web--browse.sh`
