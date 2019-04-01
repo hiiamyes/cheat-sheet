@@ -57,6 +57,26 @@ module.exports = {
 }
 ```
 
+or
+
+```
+// npm install --save-dev babel-plugin-module-resolver
+// .babelrc
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "src": "./src"
+        }
+      }
+    ]
+  ]
+}
+```
+
 path intellisense
 https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
 
