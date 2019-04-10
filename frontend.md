@@ -194,3 +194,7 @@ yarn add babel-plugin-transform-decorators-legacy
 @connect()
 class ComponentWithHOC extend React.Component {}
 ```
+
+# Headroom
+
+[headroom.js](https://github.com/WickyNilliams/headroom.js)
