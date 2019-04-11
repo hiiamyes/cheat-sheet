@@ -1,3 +1,11 @@
+# Restful
+
+- [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT): creates a new resource or replaces a representation of the target resource with the request payload.
+- [post](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST): sends data to the server.
+- [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH): applies partial modifications to a resource.
+
+The difference between PUT and POST is that PUT is idempotent: calling it once or several times successively has the same effect (that is no side effect), where successive identical POST may have additional effects, like passing an order several times.
+
 # Format
 - raml
 - openapi 2.0 (swagger)
