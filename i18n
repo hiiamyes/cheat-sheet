@@ -1,5 +1,8 @@
 https://github.com/hiiamyes/cheat-sheet/blob/master/countries.md
 
+`var lang = navigator.language`
+https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language
+
 # Format
 
 # List
