@@ -24,9 +24,14 @@ aliases: up, upgrade, udpate
 
 [semver](https://docs.npmjs.com/misc/semver): The semantic versioner for npm
 
-~version: Approximately equivalent to version
+`[major, minor, patch]`
 
+### [Tiled Ranges](https://docs.npmjs.com/misc/semver#tilde-ranges-123-12-1)
 
+Allows patch-level changes if a minor version is specified on the comparator. Allows minor-level changes if not.
+
+- ~version: Approximately equivalent to version
+- examples: ~1.2.3 ~1.2 ~1
 
 ### [Caret Ranges](https://docs.npmjs.com/misc/semver#caret-ranges-123-025-004) 
 
