@@ -21,8 +21,19 @@ aliases: up, upgrade, udpate
 [npm-check-updates](https://github.com/tjunnone/npm-check-updates)
 
 ## Version Symbol
-- ~version "Approximately equivalent to version" See semver
-- ^version "Compatible with version" See semver
+
+[semver](https://docs.npmjs.com/misc/semver): The semantic versioner for npm
+
+~version: Approximately equivalent to version
+
+
+
+### [Caret Ranges](https://docs.npmjs.com/misc/semver#caret-ranges-123-025-004) 
+
+Allows changes that do not modify the left-most non-zero digit in the [major, minor, patch] tuple. In other words, this allows patch and minor updates for versions 1.0.0 and above, patch updates for versions 0.X >=0.1.0, and no updates for versions 0.0.X.
+
+- ^version: Compatible with version
+- example: ^1.2.3 ^0.2.5 ^0.0.4§
 
 https://docs.npmjs.com/files/package.json
 
