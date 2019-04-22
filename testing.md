@@ -47,6 +47,14 @@ https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
 
 # Jest 
 
+## FAQ
+
+`describe()` vs `test()` vs `it()`
+
+[describe](https://jestjs.io/docs/en/api#describename-fn): Creates a block that groups together several related tests.
+
+[text](https://jestjs.io/docs/en/api#testname-fn-timeout): Also under the alias: it. All you need in a test file is the test method which runs a test. 
+
 ## test 1 test
 
 ## watch
