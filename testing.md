@@ -84,8 +84,11 @@ Jest + [react-testing-library](https://github.com/kentcdodds/react-testing-libra
 # Ref
 https://medium.com/homeaway-tech-blog/integration-testing-in-react-21f92a55a894
 
+## FAQ
 
+[react-testing-library](https://github.com/kentcdodds/react-testing-library) vs [enzyme](https://github.com/airbnb/enzyme)
 
+react-testing-library: no shallow render, [Why I Never Use Shallow Rendering](https://kentcdodds.com/blog/why-i-never-use-shallow-rendering)
 
 # TBD
 [Behave](https://github.com/behave/behave): Behave is behavior-driven development, Python style.
