@@ -117,6 +117,8 @@ http://www.nncron.ru/help/EN/working/cron-format.htm
 
 For OSX El Capitan and newer (or if your netstat doesn't support -p), use lsof
 
+EADDRINUSE 3000
+
 ```
 sudo lsof -i tcp:3000 
 kill PID
