@@ -1,3 +1,9 @@
+# [git open](https://github.com/paulirish/git-open)
+
+```
+npm install --global git-open
+```
+
 ## .gitignore template
 
 ```
