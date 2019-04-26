@@ -47,6 +47,9 @@ $ rm /usr/local/var/postgres/postmaster.pid # adjust path accordingly to your in
 $ brew services start postgresql
 ```
 
+# Backup
+
+
 # Migration
 - [db-migrate](https://github.com/db-migrate/node-db-migrate)
 - [node-pg-migrate](https://github.com/salsita/node-pg-migrate)
