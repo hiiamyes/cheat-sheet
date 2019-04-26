@@ -40,6 +40,8 @@ https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
 
 - [WebDirver](https://www.w3.org/TR/webdriver1/): WebDriver is a remote control interface that enables introspection and control of user agents. It provides a platform- and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behavior of web browsers.
 
+- [Chrome DevTools Protocol/Chrome Remote Debug Protocol](https://chromedevtools.github.io/devtools-protocol/): The Chrome DevTools Protocol allows for tools to instrument, inspect, debug and profile Chromium, Chrome and other Blink-based browsers. 
+
 
 # Tools
 - [Katalon Recoder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid/related)
