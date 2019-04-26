@@ -38,6 +38,8 @@ Hourglass. The team starts with a lot of unit tests, then uses end-to-end tests 
 # E2E Test
 https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
 
+- [WebDirver](https://www.w3.org/TR/webdriver1/): WebDriver is a remote control interface that enables introspection and control of user agents. It provides a platform- and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behavior of web browsers.
+
 
 # Tools
 - [Katalon Recoder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid/related)
