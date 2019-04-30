@@ -61,6 +61,12 @@ https://ropig.com/blog/end-end-tests-dont-suck-puppeteer/
 
 ## test 1 test
 
+From the command line use the --testNamePattern or -t flag
+
+```
+jest -t 'fix-order-test'
+```
+
 ## watch
 
 ```
