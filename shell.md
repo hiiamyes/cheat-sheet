@@ -141,3 +141,10 @@ https://medium.com/@hiiamyes/linode-59e7787e31c
 ```
 scp src-file-path username@ip:dest-file-path
 ```
+
+# [Command Substitution](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html#Command-Substitution)
+
+Command substitution allows the output of a command to replace the command itself. Command substitution occurs when a command is enclosed as follows:
+
+`$(command)` or `command`
+
