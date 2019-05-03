@@ -34,3 +34,8 @@ until $(curl --output /dev/null --silent --head --fail http://myhost:myport); do
     sleep 5
 done
 ```
+
+- [--output](https://curl.haxx.se/docs/manpage.html#-o): Write output to <file> instead of stdout.
+- [--silent](https://curl.haxx.se/docs/manpage.html#-s): Silent or quiet mode. Don't show progress meter or error messages.
+- [--head](https://curl.haxx.se/docs/manpage.html#-I): (HTTP FTP FILE) Fetch the headers only! 
+- [--fail](https://curl.haxx.se/docs/manpage.html#-f): (HTTP) Fail silently (no output at all) on server errors. 
