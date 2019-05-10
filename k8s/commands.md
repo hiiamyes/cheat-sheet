@@ -7,6 +7,11 @@
 brew cask install minikube
 ```
 
+[Install kubectl on macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos)
+```
+brew install kubernetes-cli
+```
+
 [Hyperkit driver](https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#hyperkit-driver)
 ```
 brew install hyperkit
