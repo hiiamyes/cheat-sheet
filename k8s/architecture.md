@@ -17,7 +17,7 @@ When you created a Deployment, Kubernetes created a Pod to host your application
 
 <img src="https://d33wubrfki0l68.cloudfront.net/fe03f68d8ede9815184852ca2a4fd30325e5d15a/98064/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg" height="200">
 
-# [Node](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/#node-overview =250x)
+# [Node](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/#node-overview)
 
 A Pod always runs on a Node. A Node is a worker machine in Kubernetes and may be either a virtual or a physical machine, depending on the cluster.
 
