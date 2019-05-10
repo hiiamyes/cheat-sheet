@@ -13,4 +13,13 @@ A Kubernetes cluster consists of two types of resources:
 
 # [Pods](https://github.com/hiiamyes/cheat-sheet/blob/master/k8s/kubernetes.md)
 
+When you created a Deployment, Kubernetes created a Pod to host your application instance.
+
+
 ![Pods](https://d33wubrfki0l68.cloudfront.net/fe03f68d8ede9815184852ca2a4fd30325e5d15a/98064/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg)
+
+# [Node](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/#node-overview)
+
+A Pod always runs on a Node. A Node is a worker machine in Kubernetes and may be either a virtual or a physical machine, depending on the cluster.
+
+![Node](https://d33wubrfki0l68.cloudfront.net/5cb72d407cbe2755e581b6de757e0d81760d5b86/a9df9/docs/tutorials/kubernetes-basics/public/images/module_03_nodes.svg)
