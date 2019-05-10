@@ -1,4 +1,4 @@
-# Cluster
+# [Cluster Diagram](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/#cluster-diagram)
 
 A Kubernetes cluster consists of two types of resources:
 
