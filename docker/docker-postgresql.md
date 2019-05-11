@@ -22,6 +22,13 @@
 
 `--link`: Add link to another container.
 
-## use on Mac
+# Backup
 
-## use on linode
+```
+sudo docker exec -i -t 665b4a1e17b6 /bin/bash
+```
+
+
+# use on Mac
+
+# use on linode
