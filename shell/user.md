@@ -27,6 +27,12 @@ sudo cat /etc/group | grep sudo
 sudo cat /etc/group | grep admin
 ```
 
+## Change user
+
+```
+su - yes
+```
+
 ## Delete user from group
 
 ```
