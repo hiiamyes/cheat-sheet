@@ -52,24 +52,30 @@ docker build -t api-server:v1 .
 [docker run](https://docs.docker.com/engine/reference/run/)
 
 ```
-docker run -d -p 80:80 yes:v1
+docker run -d -p 80:80 -v $(pwd)/src:/app/src yes:latest
 ```
 
 - -d: https://docs.docker.com/engine/reference/run/#detached--d
 - [-p](https://docs.docker.com/engine/reference/run/#expose-incoming-ports): Publish a container's port or a range of ports to the host
+- -v: 
 
 # Debug
 
 ``
 docker run -it bash?
+
 ```
 
 ```
+
 docker inspect
+
 ```
 
 ```
+
 docker logs practice-02 -f
+
 ```
 
 # Deploy
@@ -89,19 +95,25 @@ https://docs.docker.com/compose/compose-file/#service-configuration-reference
 [docker attach](https://docs.docker.com/engine/reference/commandline/attach/)
 
 ```
+
 docker attach 3b65488ae593
+
 ```
 
 [How to get bash or ssh into a running container in background mode?](https://askubuntu.com/questions/505506/how-to-get-bash-or-ssh-into-a-running-container-in-background-mode)
 
 ```
+
 sudo docker exec -i -t 665b4a1e17b6 /bin/bash
+
 ```
 
 or
 
 ```
+
 sudo docker exec -i -t loving_heisenberg /bin/bash
+
 ```
 
 # Copy file from container to host
@@ -109,5 +121,15 @@ sudo docker exec -i -t loving_heisenberg /bin/bash
 https://stackoverflow.com/questions/22049212/copying-files-from-docker-container-to-host
 
 ```
+
 docker cp <containerId>:/file/path/within/container /host/path/target
+
+```
+
+```
+
+# Prune
+```
+docker image prune -f
+docker container prune -f
 ```
