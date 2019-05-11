@@ -52,7 +52,7 @@ docker build -t api-server:v1 .
 [docker run](https://docs.docker.com/engine/reference/run/)
 
 ```
-docker run -d -p 80:80 -v $(pwd)/src:/app/src yes:latest
+docker run -d -p 80:80 -v $(pwd)/src:/app/src --name container-name image-name:latest
 ```
 
 - -d: https://docs.docker.com/engine/reference/run/#detached--d
@@ -61,21 +61,16 @@ docker run -d -p 80:80 -v $(pwd)/src:/app/src yes:latest
 
 # Debug
 
-``
-docker run -it bash?
-
+```
+docker exec -it container-name bash
 ```
 
 ```
-
 docker inspect
-
 ```
 
 ```
-
-docker logs practice-02 -f
-
+docker logs container-name -f
 ```
 
 # Deploy
@@ -86,9 +81,6 @@ How to watch?
 https://blog.bam.tech/developper-news/dockerize-your-app-and-keep-hot-reloading
 https://docs.docker.com/compose/compose-file/#service-configuration-reference
 
-```
-
-```
 
 #
 
