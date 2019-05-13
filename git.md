@@ -135,10 +135,24 @@ rm -rf .git/modules/<path_to_submodule>
 
 blame the file with specific line number
 
-`git blame -L 150,+11 -- git-web--browse.sh
+`git blame -L 150,+11 -- git-web--browse.sh`
 
 # log
 
 https://stackoverflow.com/questions/8435343/retrieve-the-commit-log-for-a-specific-line-in-a-file
 
 `git log --pretty=short -u -L 155,155:git-web--browse.sh`
+
+# Sparse Checkout
+
+https://briancoyner.github.io/2013/06/05/git-sparse-checkout.html
+
+```
+mkdir git-completion
+cd git-completion
+git init
+git config core.sparsecheckout true
+echo contrib/completion/ >> .git/info/sparse-checkout
+git remote add -f origin https://github.com/git/git.git
+git pull origin master
+```
