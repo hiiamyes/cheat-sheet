@@ -15,6 +15,17 @@ brew install aws-iam-authenticator
 
 ## Step 2: Create a kubeconfig File
 
+```
+aws eks --region ap-southeast-1 update-kubeconfig --name cluster-name
+kubectl get svc
+```
+
+```
+error: You must be logged in to the server (Unauthorized)
+```
+[Managing Users or IAM Roles for your Cluster](https://docs.aws.amazon.com/eks/latest/userguide/add-user-role.html)
+
+
 ## Step 3: Launch and Configure Amazon EKS Worker Nodes
 
 ## Step 4: Launch a Guest Book Application
