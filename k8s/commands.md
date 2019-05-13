@@ -66,21 +66,22 @@ kubectl logs $POD_NAME
 kubectl exec -ti $POD_NAME bash 
 ```
 
+## kubeconfig
 
+[Organizing Cluster Access Using kubeconfig Files](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/)
+
+Use kubeconfig files to organize information about clusters, users, namespaces, and authentication mechanisms. 
 
 ## Reference
 https://kubernetes.io/docs/tutorials/
+
 https://kubernetes.io/docs/user-guide/kubectl-overview/
 
-
-
-
-
-
-
+```
 patch="{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"timestamp\":\"$timestamp\"}}}}}"
-
 kubectl --namespace="${namespace}" patch deployments "${image}" -p "$patch"
-
 kubectl --namespace="${namespace}" rollout status -w "deployment/${image}"
+```
+
+
 
