@@ -8,7 +8,10 @@
 
 ### list all running containers / inspect and logs container
 
-`docker ps`
+```
+docker ps
+docker ps --format '{{.Image}}'
+```
 
 `docker inspect <friendly-name|container-id>`
 

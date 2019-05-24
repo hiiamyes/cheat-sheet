@@ -5,9 +5,9 @@
 ### Install
 
 ### Stop / Start / Restart
+
 Run this command to manually start the server:
 `pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start`
-
 
 Start manually:
 
@@ -49,8 +49,51 @@ $ brew services start postgresql
 
 # Backup
 
-
 # Migration
+
 - [db-migrate](https://github.com/db-migrate/node-db-migrate)
 - [node-pg-migrate](https://github.com/salsita/node-pg-migrate)
 - [sqitch](https://github.com/sqitchers/sqitch)
+
+# User
+
+https://www.liquidweb.com/kb/what-is-the-default-password-for-postgresql/
+
+```
+psql
+// psql: FATAL: role "root" does not exist
+
+su - postgres
+psql
+```
+
+When connecting to PostgreSQL on Linux for the first time many admins have questions, especially if those admins are from the MySQL world. By default, when PostgreSQL is installed, a `postgres` user is also added.
+
+The first question many ask is, “What is the default password for the user postgres?” The answer is easy… there isn’t a default password. The default authentication mode for PostgreSQL is set to ident.
+
+## Create user
+
+```
+createuser 
+```
+
+# Drop database
+
+```
+REVOKE CONNECT ON DATABASE dbname FROM PUBLIC, username;
+
+// If PostgreSQL < 9.2
+SELECT pg_terminate_backend(procpid) FROM pg_stat_activity WHERE datname = 'mydb';
+// Else
+SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname = 'mydb';
+```
+
+https://tableplus.io/blog/2018/04/postgresql-how-to-drop-database-with-active-connections.html
+
+# Connection
+
+List connection
+
+```
+SELECT * FROM pg_stat_activity;
+```
