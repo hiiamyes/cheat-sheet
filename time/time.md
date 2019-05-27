@@ -21,6 +21,12 @@ gzip -dc tzdata-latest.tar.gz | tar -xf -
 
 [Time Zone Database website](https://www.iana.org/time-zones) of the Internet Assigned Numbers Authority (IANA)
 
+```
+brew install lzip
+lzip tzdb-2019a.tar.lz
+
+```
+
 ## Native JS
 
 .toISOstring()
