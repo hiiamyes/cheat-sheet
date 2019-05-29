@@ -78,7 +78,9 @@ https://stackoverflow.com/a/20983251
 Call tput as part of a sequence of commands:
 
 ```
-tput setaf 1; echo "this is red text"
+tput setaf 1; 
+echo "this is red text"
+tput setaf 7;
 ```
 
 Use `;` instead of `&&` so if `tput` errors the text still shows.
@@ -94,6 +96,7 @@ Num  Colour    #define         R G B
 5    magenta   COLOR_MAGENTA   1,0,1
 6    cyan      COLOR_CYAN      0,1,1
 7    white     COLOR_WHITE     1,1,1
+9   reset to default color
 ```
 
 ### Crontab
