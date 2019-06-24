@@ -55,11 +55,11 @@ https://github.com/npm/npm/issues/16938#issuecomment-339863980
 
 For our team, this appears to have resolved the issue (or its current incarnation, at least):
 
-1. Ensure matching node/npm versions as a team: node -v and npm -v (and install matching versions if different)
-1. Remove your node modules: rm -rf node_modules/
-1. Clean your npm cache: npm cache clean --force
+1. Ensure matching node/npm versions as a team: `node -v` and `npm -v` (and install matching versions if different)
+1. Remove your node modules: `rm -rf node_modules/`
+1. Clean your npm cache: `npm cache clean --force`
 1. Revert the changes in your package-lock.json file (and this file only).
-1. Install dependencies again: npm i
+1. Install dependencies again: `npm i`
 
 While this might be a bit heavy handed, it did solve the issue I was seeing and the integrity hash diffs went away.
 
