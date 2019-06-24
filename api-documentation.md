@@ -6,25 +6,35 @@
 
 The difference between PUT and POST is that PUT is idempotent: calling it once or several times successively has the same effect (that is no side effect), where successive identical POST may have additional effects, like passing an order several times.
 
+- post: create
+- get: read
+- put: update
+- delete: delete
+
 # Format
+
 - raml
 - openapi 2.0 (swagger)
 - openapi 3.0
+
   - [Specification](https://swagger.io/docs/specification/about/)
   - [Schema](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md#schema)
 
 - https://swagger.io/blog/api-strategy/difference-between-swagger-and-openapi/
+
   - OpenAPI = Specification
-  - Swagger = Tools for implementing the specification 
+  - Swagger = Tools for implementing the specification
 
 - converter
   - https://mulesoft.github.io/oas-raml-converter/
 
 # Doc
+
 - [Slate](https://github.com/lord/slate)
 - [ReDoc](https://github.com/Rebilly/ReDoc)
 
 # Tool
+
 - [openapi gui](https://mermade.github.io/openapi-gui/)
 - [json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser)
 - [swagger-parser](https://github.com/APIDevTools/swagger-parser)
@@ -32,6 +42,7 @@ The difference between PUT and POST is that PUT is idempotent: calling it once o
 https://azimi.me/2015/07/16/split-swagger-into-smaller-files.html
 
 # Requirement
+
 - Functionality
   - Auth?
   - Search
@@ -44,12 +55,12 @@ https://azimi.me/2015/07/16/split-swagger-into-smaller-files.html
     - Openapi 3.0
     - ~Markdown~
   - Seperate Files
-    - $ref resolver
+    - \$ref resolver
       - https://github.com/Rebilly/ReDoc/issues/541
   - Watch
 
-
 # SAAS
+
 readme.io 99/month
 
 # Snippet
@@ -72,5 +83,4 @@ readme.io 99/month
               properties:
                 partner:
                   type: string
-```                  
-                
+```
