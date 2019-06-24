@@ -57,7 +57,7 @@ docker run -d -p 80:80 -v $(pwd)/src:/app/src --name container-name image-name:l
 
 - -d: https://docs.docker.com/engine/reference/run/#detached--d
 - [-p](https://docs.docker.com/engine/reference/run/#expose-incoming-ports): Publish a container's port or a range of ports to the host
-- -v: 
+- -v:
 
 # Debug
 
@@ -80,7 +80,6 @@ Node + Postgresql + React
 How to watch?
 https://blog.bam.tech/developper-news/dockerize-your-app-and-keep-hot-reloading
 https://docs.docker.com/compose/compose-file/#service-configuration-reference
-
 
 #
 
@@ -113,15 +112,19 @@ sudo docker exec -i -t loving_heisenberg /bin/bash
 https://stackoverflow.com/questions/22049212/copying-files-from-docker-container-to-host
 
 ```
-
 docker cp <containerId>:/file/path/within/container /host/path/target
-
-```
-
 ```
 
 # Prune
+
 ```
 docker image prune -f
 docker container prune -f
+```
+
+## Better docker ps
+
+```
+$ docker ps --format "table {{.Names}}\t{{.Status}}"
+alias dps='docker ps --format "table {{.Names}}\t{{.Status}}"'
 ```

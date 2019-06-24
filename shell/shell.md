@@ -1,4 +1,5 @@
 # Get the absolute path
+
 https://www.ostricher.com/2014/10/the-right-way-to-get-the-directory-of-a-bash-script/
 
 # shebang
@@ -11,11 +12,10 @@ It's called a shebang, and tells the parent shell which interpreter should be us
 
 e.g.
 
-#!/usr/bin/perl   <--perl script'
+#!/usr/bin/perl <--perl script'
 #!/usr/bin/php <-- php script
 #!/bin/false <--- do-nothing script, because false returns immediately anyways.
 It's implemented as a comment so that anything coming in that line will not "relevant" to the interpreter specified. e.g. all scripting languages tend to understand that a line starting with # is a comment, and will ignore the !/usr/bin/whatever portion, which might otherwise be a syntax error in that particular language.
-
 
 # UNIX command interpreter (shell)
 
@@ -38,13 +38,13 @@ list files with permission info
 
 ## shell
 
-* bash
+- bash
 
-* Zsh
-    * oh-my-zsh
+- Zsh
 
-* Korn shell(ksh)
+  - oh-my-zsh
 
+- Korn shell(ksh)
 
 ## Variables
 
@@ -70,7 +70,6 @@ version=$(node -e "console.log(require('./package.json').version)")
 
 ```
 
-
 ### Color
 
 https://stackoverflow.com/a/20983251
@@ -78,7 +77,9 @@ https://stackoverflow.com/a/20983251
 Call tput as part of a sequence of commands:
 
 ```
-tput setaf 1; echo "this is red text"
+tput setaf 1;
+echo "this is red text"
+tput setaf 7;
 ```
 
 Use `;` instead of `&&` so if `tput` errors the text still shows.
@@ -94,6 +95,7 @@ Num  Colour    #define         R G B
 5    magenta   COLOR_MAGENTA   1,0,1
 6    cyan      COLOR_CYAN      0,1,1
 7    white     COLOR_WHITE     1,1,1
+9   reset to default color
 ```
 
 ### Crontab
@@ -102,7 +104,7 @@ http://www.nncron.ru/help/EN/working/cron-format.htm
 
 ```
 * * * * * *
-| | | | | | 
+| | | | | |
 | | | | | +-- Year              (range: 1900-3000)
 | | | | +---- Day of the Week   (range: 1-7, 1 standing for Monday)
 | | | +------ Month of the Year (range: 1-12)
@@ -113,7 +115,7 @@ http://www.nncron.ru/help/EN/working/cron-format.htm
 
 ```
 * * * * * *                         Each minute
-59 23 31 12 5 *                     One minute  before the end of year if the last day of the year is Friday									
+59 23 31 12 5 *                     One minute  before the end of year if the last day of the year is Friday
 59 23 31 DEC Fri *                  Same as above (different notation)
 45 17 7 6 * *                       Every  year, on June 7th at 17:45
 ```
@@ -125,14 +127,13 @@ For OSX El Capitan and newer (or if your netstat doesn't support -p), use lsof
 EADDRINUSE 3000
 
 ```
-sudo lsof -i tcp:3000 
+sudo lsof -i tcp:3000
 kill PID
 ```
 
 ```
 kill $(lsof -t -i:8080)
 ```
-
 
 ### ssh
 
@@ -143,6 +144,7 @@ alias yes-linode="ssh username@ip"
 
 https://linux.die.net/man/1/scp
 https://medium.com/@hiiamyes/linode-59e7787e31c
+
 ```
 scp src-file-path username@ip:dest-file-path
 ```
@@ -153,3 +155,16 @@ Command substitution allows the output of a command to replace the command itsel
 
 `$(command)` or `command`
 
+# Load environment file
+
+Pass the env-vars to MYCOMMAND
+
+```
+eval $(egrep -v '^#' .env | xargs) MYCOMMAND
+```
+
+Export the vars in .env into your shell:
+
+```
+export $(egrep -v '^#' .env | xargs)
+```

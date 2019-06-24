@@ -1,16 +1,13 @@
-## Kubernetes object 
-
-### Deployment
+# Deployment
 
 https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
+- defines the container spec required
+- with the name and labels used by other parts of Kubernetes to discover and connect to the application.
 
-* defines the container spec required
-* with the name and labels used by other parts of Kubernetes to discover and connect to the application.
-
-* to launch an application called webappp1 
-* using the Docker Image katacoda/docker-http-server 
-* that runs on Port 80.
+- to launch an application called webappp1
+- using the Docker Image katacoda/docker-http-server
+- that runs on Port 80.
 
 ```
 apiVersion: extensions/v1beta1
@@ -37,11 +34,11 @@ kubectl get deployment
 kubectl describe deployment webapp1
 ```
 
-### Service
+# Service
 
-* powerful networking capabilities that control how applications communicate.
-* The Service selects all applications with the label webapp1.
-* The Service makes the application available via a NodePort.
+- powerful networking capabilities that control how applications communicate.
+- The Service selects all applications with the label webapp1.
+- The Service makes the application available via a NodePort.
 
 ```
 apiVersion: v1
@@ -65,15 +62,23 @@ kubectl get svc
 kubectl describe svc webapp1-svc
 ```
 
-### Replication Controller
+# Replication Controller
 
-* Ingress
-* This controller combines a software load balancer, such as Nginx or HAProxy, with Kubernetes integration for configuring itself based on the defined rules.
+- Ingress
+- This controller combines a software load balancer, such as Nginx or HAProxy, with Kubernetes integration for configuring itself based on the defined rules.
 
 ```
 kubectl get rc
 ```
 
-### Reference
+# ConfigMap
+
+For setting environment...
+
+ConfigMaps allow you to decouple configuration artifacts from image content to keep containerized applications portable.
+
+https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/
+
+# Reference
 
 https://www.katacoda.com/courses/kubernetes/creating-kubernetes-yaml-definitions

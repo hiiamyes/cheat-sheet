@@ -28,3 +28,10 @@ services:
 
 # CI/CD
 https://stackoverflow.com/questions/42302632/docker-compose-continuous-deployment-setup
+
+
+# Exec
+
+```
+docker-compose exec SERVICE_NAME sh
+```

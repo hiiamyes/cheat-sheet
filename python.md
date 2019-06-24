@@ -4,8 +4,15 @@ Proposed Solution
 
 - Formatter: yapf
 - VSCode Extension: ms-python
--- Config: `.vscode/settings.json` and `.style.yapf`
--- Keyboard Shortcuts: `shift + alt + f`
+  -- Config: `.vscode/settings.json` and `.style.yapf`
+  -- Keyboard Shortcuts: `shift + alt + f`
+
+```
+// .vscode/settings.json
+{
+  "python.pythonPath": "env/bin/python2.7"
+}
+```
 
 ```
 // .style.yapf
