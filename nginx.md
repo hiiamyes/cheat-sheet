@@ -10,6 +10,7 @@ sudo service nginx restart
 ```
 
 # host web backend
+
 https://eladnava.com/binding-nodejs-port-80-using-nginx/
 
 ## Backend server
@@ -42,7 +43,7 @@ server {
 ## Frontend SPA
 
 ```
-// cat /etc/nginx/sites-available/hiiamyes.com 
+// cat /etc/nginx/sites-available/hiiamyes.com
 server {
   listen 80;
   listen [::]:80;
@@ -53,3 +54,7 @@ server {
     try_files $uri $uri/ =404;
   }
 }
+```
+
+- [location](http://nginx.org/en/docs/http/ngx_http_core_module.html#location): Sets configuration depending on a request URI.
+- [try_files](http://nginx.org/en/docs/http/ngx_http_core_module.html#try_files): Checks the existence of files in the specified order and uses the first found file for request processing.
