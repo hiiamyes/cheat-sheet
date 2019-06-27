@@ -56,7 +56,7 @@ docker run -d -p 80:80 -v $(pwd)/src:/app/src --name container-name image-name:l
 ```
 
 - [-d](https://docs.docker.com/engine/reference/run/#detached--d):
-- [-p](https://docs.docker.com/engine/reference/run/#expose-incoming-ports): Publish a container's port or a range of ports to the host
+- [--publish, -p](https://docs.docker.com/engine/reference/run/#expose-incoming-ports): Publish a container's port or a range of ports to the host
 - -v:
 
 # Debug
