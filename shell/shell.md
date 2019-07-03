@@ -146,8 +146,12 @@ https://linux.die.net/man/1/scp
 https://medium.com/@hiiamyes/linode-59e7787e31c
 
 ```
-scp src-file-path username@ip:dest-file-path
+ssh remote-host 'mkdir -p foo/bar/qux'
+scp -pr src-file-path username@ip:dest-file-path
 ```
+
+- `-p`: Preserves modification times, access times, and modes from the original file.
+- `-r`: Recursively copy entire directories. Note that scp follows symbolic links encountered in the tree traversal.
 
 # [Command Substitution](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html#Command-Substitution)
 
