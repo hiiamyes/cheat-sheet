@@ -148,7 +148,8 @@ https://linux.die.net/man/1/scp
 https://medium.com/@hiiamyes/linode-59e7787e31c
 
 ```
-scp src-file-path username@ip:dest-file-path
+ssh remote-host 'mkdir -p foo/bar/qux'
+scp -pr src-file-path username@ip:dest-file-path
 ```
 
 Connecting to a database behind a firewall
@@ -157,9 +158,12 @@ Connecting to a database behind a firewall
 ssh -L 9000:localhost:5432 user@example.com
 ```
 
-`-L [bind_address:]port:host:hostport`: Specifies that the given port on the local (client) host is to be forwarded to the given host and port on the remote side.
+- `-L [bind_address:]port:host:hostport`: Specifies that the given port on the local (client) host is to be forwarded to the given host and port on the remote side.
 
-`-t`: Force pseudo-tty allocation. This can be used to execute arbitrary screen-based programs on a remote machine, which can be very useful, e.g. when implementing menu services. Multiple -t options force tty allocation, even if ssh has no local tty.
+- `-t`: Force pseudo-tty allocation. This can be used to execute arbitrary screen-based programs on a remote machine, which can be very useful, e.g. when implementing menu services. Multiple -t options force tty allocation, even if ssh has no local tty.
+
+- `-p`: Preserves modification times, access times, and modes from the original file.
+- `-r`: Recursively copy entire directories. Note that scp follows symbolic links encountered in the tree traversal.
 
 # [Command Substitution](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html#Command-Substitution)
 
