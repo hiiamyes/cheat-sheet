@@ -86,7 +86,17 @@ export PS1
 
 Check the parent for reverting merge commit
 
-`git show [commit]`
+```
+git show [commit]
+
+commit eda1d1e23878e133fb470e20776470f1c6bfb9de (tag: build-144.1)
+Merge: parent-number-1 parent-number-2
+Author: Yew Lee <yes@gmail.com>
+Date:   Wed Jul 3 10:35:27 2019 +0800
+
+    Commit message...
+
+```
 
 General case, it'll be 1
 
