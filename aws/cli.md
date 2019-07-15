@@ -1,3 +1,10 @@
+# CLI
+
+```
+brew install aws
+aws configure
+```
+
 # Credential
 
 ```
