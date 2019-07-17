@@ -1,0 +1,3 @@
+# Commitizen
+
+Better commit message
