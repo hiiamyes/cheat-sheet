@@ -12,6 +12,8 @@ https://docs.npmjs.com/getting-started/updating-local-packages
 
 `npm update`: Packages are just updated to Wanted version but not Latest.
 
+`npm install styled-components@4.3.2`
+
 `npm update react`
 
 aliases: up, upgrade, udpate
@@ -71,6 +73,20 @@ GitHub
 npm install produces different lockfiles on different computes · Issue #16938 · npm/npm
 I&#39;m opening this issue because: npm is crashing. npm is producing an incorrect install. npm is doing something I don&#39;t understand. Other (see below for feature requests): What&#39;s going w...
 tried in my computer and @Yes Lee’s computer, it works
+
+## SHA
+
+https://stackoverflow.com/questions/47638381/why-did-package-lock-json-change-the-integrity-hash-from-sha1-to-sha512
+
+If someone else working with the codebase and sees a git change from sha512 down to sha1 (which is the issue I was having) you can fix it by running the following:
+
+Discard the changes in git for package-lock.json
+
+```
+npm i -g npm
+rm -rf node_modules/
+npm i
+```
 
 # package from Github
 

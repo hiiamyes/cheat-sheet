@@ -33,3 +33,10 @@ font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", "Ubuntu Mono", Menlo, Co
 
 - [normalize.css](https://github.com/necolas/normalize.css/issues/665)
 - [system font stack](https://css-tricks.com/snippets/css/system-font-stack/)
+
+# Font Face
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
