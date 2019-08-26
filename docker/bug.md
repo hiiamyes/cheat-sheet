@@ -2,7 +2,13 @@
 
 database not created
 
-https://github.com/docker/docker-snap/issues/31
+solution
+
+- https://github.com/docker-library/postgres/issues/203#issuecomment-255200501
+
+ref
+
+- https://github.com/docker/docker-snap/issues/31
 
 ```
 incorrect one

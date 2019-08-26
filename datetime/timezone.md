@@ -32,3 +32,16 @@ lzip tzdb-2019a.tar.lz
 .toISOstring()
 
 ## Moment
+
+## Linux
+
+```
+date
+date +"%Z %z"
+
+timedatectl
+timedatectl | grep "Time zone"
+
+cat /etc/timezone
+
+```
