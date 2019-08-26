@@ -4,13 +4,17 @@
 
 # image
 
-`$ docker pull postgres`
+```
+docker run --name db-test -e POSTGRES_PASSWORD=test -e POSTGRES_DB=test -e POSTGRES_USER=test -d postgres:11
+docker exec -it db-test bash
+psql -U test
+```
 
-`$ docker run --name yes-postgres -e POSTGRES_PASSWORD=yes -d postgres`
+```
+docker run -it --rm --link yes-postgres:postgres postgres psql -h postgres -U postgres
+```
 
-`$ docker run -it --rm --link yes-postgres:postgres postgres psql -h postgres -U postgres`
-
-`--env , -e`:	Set environment variables
+`--env , -e`: Set environment variables
 
 `--interactive, -i`: Keep STDIN open even if not attached.
 
@@ -27,7 +31,6 @@
 ```
 sudo docker exec -i -t 665b4a1e17b6 /bin/bash
 ```
-
 
 # use on Mac
 
