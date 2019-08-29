@@ -47,8 +47,6 @@ $ rm /usr/local/var/postgres/postmaster.pid # adjust path accordingly to your in
 $ brew services start postgresql
 ```
 
-# Backup
-
 # Migration
 
 - [db-migrate](https://github.com/db-migrate/node-db-migrate)
@@ -74,7 +72,7 @@ The first question many ask is, “What is the default password for the user pos
 ## Create user
 
 ```
-createuser 
+createuser
 ```
 
 # Drop database

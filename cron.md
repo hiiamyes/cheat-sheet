@@ -33,8 +33,8 @@ crontab -l [-u user]
 
 ```
 crontab -e
-* * * * * cd ~/app/pangolin && docker-compose run crawler node src/getStation.js
+* * * * * cd ~/app/pangolin && /usr/local/bin/docker-compose run -d --no-deps crawler node src/getStation.js
 crontab -l
-grep CRON /var/log/syslog*
-grep CRON /var/log/syslog.1 | grep -E "(yes)"
+sudo grep CRON /var/log/syslog*
+sudo grep CRON /var/log/syslog* | grep -E "(yes)"
 ```
