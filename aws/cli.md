@@ -1,5 +1,15 @@
 # CLI
 
+https://github.com/aws/aws-cli/
+
+```
+aws [options] <command> <subcommand> [parameters]
+```
+
+- --profile
+
+# Installation
+
 ```
 brew install aws
 aws configure
@@ -38,3 +48,5 @@ output = json
 [profile-yes]
 output = json
 ```
+
+# Profile
