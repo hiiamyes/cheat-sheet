@@ -6,6 +6,10 @@ https://github.com/aws/aws-cli/
 aws [options] <command> <subcommand> [parameters]
 ```
 
+```
+aws s3 cp --profile pangolin s3://yes-pangolin/db-backup/$file ./
+```
+
 - --profile
 
 # Installation
