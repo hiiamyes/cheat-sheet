@@ -6,6 +6,10 @@ https://github.com/aws/aws-cli/
 aws [options] <command> <subcommand> [parameters]
 ```
 
+```
+aws --profile pangolin s3 mb s3://new-bucket
+```
+
 - --profile
 
 # Installation
