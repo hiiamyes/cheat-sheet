@@ -184,3 +184,14 @@ Export the vars in .env into your shell:
 ```
 export $(egrep -v '^#' .env | xargs)
 ```
+
+# If Statement
+
+https://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php
+
+```
+if [ <some test> ]
+then
+<commands>
+fi
+```
