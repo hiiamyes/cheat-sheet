@@ -7,7 +7,7 @@ aws [options] <command> <subcommand> [parameters]
 ```
 
 ```
-aws --profile pangolin s3 mb s3://new-bucket
+aws s3 cp --profile pangolin s3://yes-pangolin/db-backup/$file ./
 ```
 
 - --profile
