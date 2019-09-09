@@ -27,7 +27,7 @@ sudo cat /etc/group | grep sudo
 sudo cat /etc/group | grep admin
 ```
 
-## Change user
+## Switch user
 
 ```
 su - yes
