@@ -1,3 +1,5 @@
+# SEO
+
 [What’s in the head? Metadata in HTML - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 [<meta>: The Document-level Metadata element - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
 [List of Usable HTML Meta and Link Tags](https://gist.github.com/kevinSuttle/1997924)
