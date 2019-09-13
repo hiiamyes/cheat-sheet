@@ -1,29 +1,27 @@
 ### Prettier
 
-
-
-## CSS 
+## CSS
 
 ### [CSScomb](http://csscomb.com/)
 
 [vscode-csscomb](https://github.com/mrmlnc/vscode-csscomb)
 
-config 
+config
 
 ```
 "csscomb.formatOnSave": true,
 "csscomb.preset": "yandex",
-```  
+```
 
 ## Lintting
 
-
 ## Import Path, Base Url
+
 - https://github.com/Microsoft/vscode/issues/9135
 - https://blog.andrewray.me/autocomplete-es-modules-webpack-vscode/
 - https://code.visualstudio.com/docs/languages/jsconfig#_jsconfig-options
 
-```
+```json
 // jsconfig.json in project's root
 {
   "compilerOptions": {
@@ -37,29 +35,29 @@ config
 }
 ```
 
-```
+```js
 // webpack.config.js
 module.exports = {
   resolve: {
-    modules: [path.resolve(__dirname), 'node_modules']
-  },
-}
+    modules: [path.resolve(__dirname), "node_modules"]
+  }
+};
 ```
 
 or
 
-```
+```js
 // webpack.config.js
 module.exports = {
   alias: {
     src: path.resolve(__dirname, "src/")
-  },
-}
+  }
+};
 ```
 
 or
 
-```
+```json
 // npm install --save-dev babel-plugin-module-resolver
 // .babelrc
 {
@@ -77,18 +75,15 @@ or
 }
 ```
 
-path intellisense
-https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
-
+- [path intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
 ## Snippet
 
 F1 > Preferences: Open User Snippets > Javascript React
 
-
 ## setting.json
 
-```
+```json
 {
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
@@ -99,7 +94,8 @@ F1 > Preferences: Open User Snippets > Javascript React
 ## launch.json
 
 ### debug!
-```
+
+```json
 {
   "version": "0.2.0",
   "configurations": [
