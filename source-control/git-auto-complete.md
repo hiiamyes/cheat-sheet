@@ -9,7 +9,7 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 vim ~/.bash_profile
 ```
 
-```
+```sh
 # git-completion
 if [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash
@@ -23,13 +23,12 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-pro
 vim ~/.bash_profile
 ```
 
-```
-# Set the base PS1
-export PS1="\t: \W$ "
+```sh
 # git-prompt
 if [ -f ~/.git-prompt.bash ]; then
-    source ~/.git-prompt.bash
-    PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+  source ~/.git-prompt.bash
+  PS1='\[\e[32;40m\]$(__git_ps1 "%s ")\[\e[0m\]'$PS1
+  echo $PS1
 fi
 export PS1
 ```
