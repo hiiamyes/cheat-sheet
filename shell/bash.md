@@ -24,3 +24,36 @@ if [ -f ~/.git-prompt.bash ]; then
 fi
 export PS1
 ```
+
+# For loop
+
+```sh
+for VARIABLE in 1 2 3 4 5 .. N
+do
+	command1
+	command2
+	commandN
+done
+```
+
+```sh
+for VARIABLE in file1 file2 file3
+do
+	command1 on $VARIABLE
+	command2
+	commandN
+done
+```
+
+```sh
+for OUTPUT in $(Linux-Or-Unix-Command-Here)
+do
+	command1 on $OUTPUT
+	command2 on $OUTPUT
+	commandN
+done
+```
+
+# Prompt PS1
+
+- [HalloweenBash](https://xta.github.io/HalloweenBash/)
