@@ -9,15 +9,17 @@ vim ~/.bash_profile
 ```
 
 ```sh
-# bash prompt
+# base prompt
 PS1="\[\e[36;40m\]\W\\$ \[\e[0m\]"
+
+# setup prompt
 export PS1
 ```
 
 Add git-prompt
 
 ```sh
-# git-prompt
+# git prompt
 if [ -f ~/.git-prompt.bash ]; then
   source ~/.git-prompt.bash
   PS1='\[\e[32;40m\]$(__git_ps1 "%s ")\[\e[0m\]'$PS1
