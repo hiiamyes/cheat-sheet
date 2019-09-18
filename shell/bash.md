@@ -9,6 +9,7 @@ vim ~/.bash_profile
 ```
 
 ```sh
+# bash prompt
 PS1="\[\e[36;40m\]\W\\$ \[\e[0m\]"
 export PS1
 ```
@@ -53,7 +54,3 @@ do
 	commandN
 done
 ```
-
-# Prompt PS1
-
-- [HalloweenBash](https://xta.github.io/HalloweenBash/)
