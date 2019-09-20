@@ -9,3 +9,9 @@ upgrade package
 ```
 npm update -g create-react-app
 ```
+
+https://yarnpkg.com/lang/en/docs/cli/upgrade-interactive/
+
+```
+yarn upgrade-interactive
+```
