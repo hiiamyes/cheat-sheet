@@ -46,11 +46,15 @@ module.exports = {
 
 or
 
+# https://webpack.js.org/configuration/resolve/#resolvealias
+
 ```js
 // webpack.config.js
 module.exports = {
-  alias: {
-    src: path.resolve(__dirname, "src/")
+  resolve: {
+    alias: {
+      src: path.resolve(__dirname, "src/")
+    }
   }
 };
 ```
