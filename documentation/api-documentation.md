@@ -10,6 +10,8 @@ The difference between PUT and POST is that PUT is idempotent: calling it once o
 - get: read
 - put: update
 - delete: delete
+- first?
+- head?
 
 # Format
 
