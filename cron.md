@@ -17,7 +17,7 @@ Min Hour Day Mon Weekday
 
 # Crontab
 
-```
+```sh
 # Adding tasks easily
 echo "@reboot echo hi" | crontab
 # Open in editor
@@ -31,10 +31,18 @@ crontab -l [-u user]
 - -r (delete user's crontab)
 - -i (prompt before deleting user's crontab)
 
-```
+```sh
 crontab -e
 * * * * * cd ~/app/pangolin && /usr/local/bin/docker-compose run -d --no-deps crawler node src/getStation.js
+```
+
+```
 crontab -l
+```
+
+# Log
+
+```
 sudo grep CRON /var/log/syslog*
 sudo grep CRON /var/log/syslog* | grep -E "(yes)"
 ```
