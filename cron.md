@@ -36,13 +36,13 @@ crontab -e
 * * * * * cd ~/app/pangolin && /usr/local/bin/docker-compose run -d --no-deps crawler node src/getStation.js
 ```
 
-```
+```sh
 crontab -l
 ```
 
 # Log
 
-```
+```sh
 sudo grep CRON /var/log/syslog*
 sudo grep CRON /var/log/syslog* | grep -E "(yes)"
 ```
