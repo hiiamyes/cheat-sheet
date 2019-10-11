@@ -2,11 +2,11 @@
 
 - Divide and conquer: O(nlogn)
 
-| Algorithm     | Best  | Average | Worst | Memory | Stable | Comments                    |
-| ------------- | ----- | ------- | ----- | ------ | ------ | --------------------------- |
-| Quick Sort    | nlogn | nlogn   |
-| Merge Sort    |       |         |
-| Counting Sort | n+r   | n+r     | n+r   | n+r    | Yes    | r - biggest number in array |
+| Algorithm     | Best  | Average | Worst | Memory | Stable | Space | Comments                    |
+| ------------- | ----- | ------- | ----- | ------ | ------ | ----- | --------------------------- |
+| Quick Sort    | nlogn | nlogn   | ?     | ?      | ?      | 1     |                             |
+| Merge Sort    |       |         | ?     | ?      | ?      |       |                             |
+| Counting Sort | n+r   | n+r     | n+r   | n+r    | Yes    |       | r - biggest number in array |
 
 # nlogn
 
