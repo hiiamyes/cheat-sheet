@@ -84,7 +84,7 @@ Quits the psql program. In a script file, only execution of that script is termi
 
 `\l`: list databases
 
-`du`: list users
+`\du`: list users
 
 # Run SQL Query
 
