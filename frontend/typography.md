@@ -23,12 +23,14 @@ button {
   - use sans-serif fonts for most of our type
   - to display code then you should defer to monospace fonts.
 
-```
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+```css
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 ```
 
-```
-font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", "Ubuntu Mono", Menlo, Courier, monospace;
+```css
+font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", "Ubuntu Mono", Menlo,
+  Courier, monospace;
 ```
 
 - [normalize.css](https://github.com/necolas/normalize.css/issues/665)
@@ -37,6 +39,6 @@ font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", "Ubuntu Mono", Menlo, Co
 # Font Face
 
 @font-face {
-  font-family: myFirstFont;
-  src: url(sansation_light.woff);
+font-family: myFirstFont;
+src: url(sansation_light.woff);
 }
