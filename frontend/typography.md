@@ -55,12 +55,13 @@ button {
 # Type Scale
 
 https://material.io/design/typography/the-type-system.html#
+https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 
-| Scale Category | Weight | Size | Letter spacing | Line height |
-| -------------- | ------ | ---- | -------------- | ----------- |
-| H1             |        | 96   |
-| H2             |        | 60   |
-| H3             |        | 48   |
-| H4             |        | 34   |
-| H5             |        | 24   |
-| H6             |        | 20   |
+| Scale Category | Weight | Size | Letter spacing | Line height  |
+| -------------- | ------ | ---- | -------------- | ------------ |
+| H1             |        | 96   |                | normal (1.2) |
+| H2             |        | 60   |                | normal (1.2) |
+| H3             |        | 48   |                | normal (1.2) |
+| H4             |        | 34   |                | normal (1.2) |
+| H5             |        | 24   |                | normal (1.2) |
+| H6             |        | 20   |                | normal (1.2) |
