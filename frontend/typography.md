@@ -1,25 +1,8 @@
-# Font size
+# Font Family & Font Face
 
-1. Setup base `font-size` of `<html />`
-1. Use `rem`:
-   - The rem (root em) works in exactly the same way as the em, except that it will always equal the size of the default base font-size.
-   - The default base font-size given to web pages by web browsers before CSS styling is applied is 16 pixels.
-
-```
-// global.css
-html {
-    font-size: 16px;
-}
-
-button {
-    font-size: 1rem;
-}
-```
-
-# Reference
-
+- [normalize.css](https://github.com/necolas/normalize.css/issues/665)
+- [system font stack](https://css-tricks.com/snippets/css/system-font-stack/)
 - [Typography - Atlassian Design](https://atlassian.design/guidelines/product/foundations/typography)
-
   - use sans-serif fonts for most of our type
   - to display code then you should defer to monospace fonts.
 
@@ -33,15 +16,12 @@ font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", "Ubuntu Mono", Menlo,
   Courier, monospace;
 ```
 
-- [normalize.css](https://github.com/necolas/normalize.css/issues/665)
-- [system font stack](https://css-tricks.com/snippets/css/system-font-stack/)
-
-# Font Face
-
+```css
 @font-face {
-font-family: myFirstFont;
-src: url(sansation_light.woff);
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
 }
+```
 
 # Font Size
 
@@ -55,3 +35,32 @@ The problem is that 14 isn’t very divisible: its divisible factors are 7 and 2
 | ----------- | ----------- | ---- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | .625        | .75         | .875 | 1rem         | 1.125        | 1.25         | 1.375        | 1.5          |
 | .7142857143 | .8571428571 | 1rem | 1.1428571429 | 1.2857142857 | 1.4285714286 | 1.5714285714 | 1.7142857143 |
+
+- Setup base `font-size` of `<html />`
+- Use `rem`:
+  - The rem (root em) works in exactly the same way as the em, except that it will always equal the size of the default base font-size.
+  - The default base font-size given to web pages by web browsers before CSS styling is applied is 16 pixels.
+
+```css
+/* global.css */
+html {
+  font-size: 16px;
+}
+
+button {
+  font-size: 1rem;
+}
+```
+
+# Type Scale
+
+https://material.io/design/typography/the-type-system.html#
+
+| Scale Category | Weight | Size | Letter spacing | Line height |
+| -------------- | ------ | ---- | -------------- | ----------- |
+| H1             |        | 96   |
+| H2             |        | 60   |
+| H3             |        | 48   |
+| H4             |        | 34   |
+| H5             |        | 24   |
+| H6             |        | 20   |
