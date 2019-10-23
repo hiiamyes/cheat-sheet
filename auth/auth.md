@@ -38,3 +38,24 @@ OAuth uses HTTP exclusively.
 - If you need to provide access to a partner or customer application to your portal, then use SAML.
 - If your usecase requires a centralized identity source, then use SAML (Identity provider).
 - If your usecase involves mobile devices, then OAuth2 with some form of Bearer Tokens is appropriate.
+
+## Authentication vs Authorization
+
+- Authentication
+  - 認證
+  - Authentication is about validating your credentials such as Username/User ID and password to verify your identity.
+    - Single- Factor Authentication
+    - Two- Factor Authentication
+    - Multi- Factor Authentication:
+- Authorization
+  - 授權
+  - Authorization occurs after your identity is successfully authenticated by the system, which therefore gives you full access to resources such as information, files, databases, funds, etc.
+- https://medium.com/datadriveninvestor/authentication-vs-authorization-716fea914d55
+
+## Log In vs Sign Up vs Log Out
+
+- Log In
+  - Log in with Google
+- Sign Up
+  - Don't have an account? Sign up with Email
+- Log Out
