@@ -10,7 +10,10 @@
 
 ## Leverage git
 
+https://glebbahmutov.com/blog/use-github-instead-of-npm/
+
 ```
 npm install <git-host>:<git-user>/<repo-name>
 npm install <git repo url>
+yarn add hiiamyes/frontend-cookbook#v0.1.16
 ```
