@@ -63,5 +63,5 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 | H2             |        | 60   |                | normal (1.2) |
 | H3             |        | 48   |                | normal (1.2) |
 | H4             |        | 34   |                | normal (1.2) |
-| H5             |        | 24   |                | normal (1.2) |
+| H5             |        | 24   |                | 30           |
 | H6             |        | 20   |                | normal (1.2) |
