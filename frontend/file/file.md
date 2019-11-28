@@ -23,3 +23,11 @@ function previewFile() {
   }
 }
 ```
+
+URL.createObjectURL() vs FileReader.readAsDataURL()
+
+```js
+var blob = items[i].getAsFile();
+var URLObj = this._getURLObj();
+var source = URLObj.createObjectURL(blob);
+```
