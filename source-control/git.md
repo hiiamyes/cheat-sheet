@@ -28,3 +28,21 @@ parse_git_branch() {
 }
 export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 ```
+
+## [Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+
+```
+<!-- list tags -->
+git tag
+
+<!-- create tag -->
+git tag v0.1.16
+
+<!-- push tag -->
+git push origin v0.1.16
+
+<!-- delete remote tag -->
+git push --delete origin build-1.1
+```
+
+
