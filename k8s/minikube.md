@@ -4,7 +4,7 @@
 brew cask install minikube
 ```
 
-[Hyperkit driver](https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#hyperkit-driver)
+[Hyperkit driver](https://minikube.sigs.k8s.io/docs/reference/drivers/hyperkit/)
 
 ```
 brew install hyperkit

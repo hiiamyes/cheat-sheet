@@ -3,4 +3,5 @@
 ```
 brew install kompose
 kompose --file docker-voting.yml convert
+kompose convert -f docker-compose.yaml
 ```
