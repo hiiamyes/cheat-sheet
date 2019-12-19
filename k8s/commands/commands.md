@@ -17,23 +17,6 @@ kubectl cluster-info // Let’s view the cluster details.
 kubectl get nodes // To view the nodes in the cluster.
 ```
 
-## Deploy an App
-
-```
-// kubectl run NAME --image=image [--port=port]
-kubectl run kubernetes-bootcamp --image=docker.io/jocatalin/kubernetes-bootcamp:v1 --port=8080
-
-// To list your deployments
-kubectl get deployments
-
-// Create a proxy that will forward communications into the cluster-wide, private network.
-kubectl proxy
-
-export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
-curl http://localhost:8001/version
-curl http://localhost:8001/api/v1/proxy/namespaces/default/pods/$POD_NAME/
-```
-
 ## Creating Objects
 
 `apply` manages applications through files defining Kubernetes resources. It creates and updates resources in a cluster through running kubectl apply. This is the recommended way of managing Kubernetes applications on production. See Kubectl Book.
