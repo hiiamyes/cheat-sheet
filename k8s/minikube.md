@@ -1,3 +1,5 @@
+# Minikube
+
 [minikube](https://github.com/kubernetes/minikube)
 
 ```
@@ -20,6 +22,8 @@ minikube config set vm-driver hyperkit
 ```
 minikube version
 minikube start
+minikube start --kubernetes-version v1.14.0
+minikube start --kubernetes-version v1.17.0
 minikube dashboard
 minikube stop
 ```
