@@ -26,6 +26,7 @@ minikube start --kubernetes-version v1.14.0
 minikube start --kubernetes-version v1.17.0
 minikube dashboard
 minikube stop
+minikube delete
 ```
 
 # Deploy local image
