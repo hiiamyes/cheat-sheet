@@ -21,6 +21,7 @@ minikube config set vm-driver hyperkit
 minikube version
 minikube start
 minikube dashboard
+minikube stop
 ```
 
 # Deploy local image

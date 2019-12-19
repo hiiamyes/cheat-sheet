@@ -37,16 +37,6 @@ React SPA
 FROM node:latest
 ```
 
-## Build
-
-[docker build](https://docs.docker.com/engine/reference/commandline/build/): Build an image from a Dockerfile
-
-```
-docker build -t api-server:v1 .
-```
-
-- --tag, -t: Name and optionally a tag in the ‘name:tag’ format
-
 # Run
 
 [docker run](https://docs.docker.com/engine/reference/run/)
@@ -58,6 +48,10 @@ docker run -d -p 80:80 -v $(pwd)/src:/app/src --name container-name image-name:l
 - [-d](https://docs.docker.com/engine/reference/run/#detached--d):
 - [--publish, -p](https://docs.docker.com/engine/reference/run/#expose-incoming-ports): Publish a container's port or a range of ports to the host
 - -v:
+
+start a container with redis image and run in the background(`-d`)
+
+`docker run -d redis`
 
 # Debug
 
@@ -115,12 +109,6 @@ https://stackoverflow.com/questions/22049212/copying-files-from-docker-container
 docker cp <containerId>:/file/path/within/container /host/path/target
 ```
 
-# Prune
-
-```
-docker image prune -f
-docker container prune -f
-```
 
 ## Better docker ps
 
@@ -128,3 +116,18 @@ docker container prune -f
 $ docker ps --format "table {{.Names}}\t{{.Status}}"
 alias dps='docker ps --format "table {{.Names}}\t{{.Status}}"'
 ```
+
+list all running containers / inspect and logs container
+
+```
+docker ps
+docker ps --format '{{.Image}}'
+```
+
+`docker inspect <friendly-name|container-id>`
+
+`docker logs <friendly-name|container-id>`
+
+### existing images can be found at registry.hub.docker.com
+
+`docker search redis`

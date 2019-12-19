@@ -1,21 +1,4 @@
-### existing images can be found at registry.hub.docker.com
 
-`docker search redis`
-
-### start a container with redis image and run in the background(`-d`)
-
-`docker run -d redis`
-
-### list all running containers / inspect and logs container
-
-```
-docker ps
-docker ps --format '{{.Image}}'
-```
-
-`docker inspect <friendly-name|container-id>`
-
-`docker logs <friendly-name|container-id>`
 
 ### running Redis in the background, with a name of redisHostPort on port 6379
 
