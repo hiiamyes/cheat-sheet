@@ -5,8 +5,22 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 2xx
 
-3xx
+# 3xx
 
-4xx
+301
 
-5xx
+302
+
+# 4xx
+
+Client errors
+
+400 Bad Request
+
+401 Unauthorized
+
+403 Forbidden
+
+404 Not Found
+
+# 5xx
