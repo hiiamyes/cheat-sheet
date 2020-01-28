@@ -15,9 +15,9 @@ A typical mobile-optimized site contains something like the following:
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 ```
 
-- width: The width property controls the size of the viewport.
-- initial-scale: Controls the zoom level when the page is first loaded.
-- maximum-scale: Control how users are allowed to zoom the page in or out.
+- `width`: Controls the size of the viewport.
+- `initial-scale`: Controls the zoom level when the page is first loaded.
+- `maximum-scale`: Control how users are allowed to zoom the page in or out.
 - minimum-scale: Control how users are allowed to zoom the page in or out.
 - user-scalable: Control how users are allowed to zoom the page in or out.
 
