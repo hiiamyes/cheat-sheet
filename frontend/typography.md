@@ -7,8 +7,10 @@
   - to display code then you should defer to monospace fonts.
 
 ```css
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-  "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
 ```
 
 ```css
