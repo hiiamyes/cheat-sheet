@@ -43,9 +43,16 @@ http://postgresguide.com/utilities/psql.html
 
 # Start a postgresql
 
-```
+```sh
 docker run --rm --name pg-docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 postgres
-docker run --rm --name pg-docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 -v $HOME/docker/volumes/postgres:/var/lib/postgresql/data postgres
+docker run \
+--rm \
+--name pg-docker \
+-e POSTGRES_PASSWORD=docker
+-d \
+-p 5432:5432 \
+-v $HOME/docker/volumes/postgres:/var/lib/postgresql/data \
+postgres
 ```
 
 - `--rm`: Automatically remove the container and it’s associated file system upon exit. In general, if we are running lots of short term containers, it is good practice to to pass rm flag to the docker run command for automatic cleanup and avoid disk space issues. We can always use the v option (described below) to persist data beyond the lifecycle of a container
