@@ -2,6 +2,8 @@
 
 https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
+A Deployment provides declarative updates for Pods and ReplicaSets.
+
 ## Create
 
 ```

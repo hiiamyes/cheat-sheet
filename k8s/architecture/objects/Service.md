@@ -2,6 +2,10 @@
 
 https://kubernetes.io/docs/concepts/services-networking/service/
 
+An abstract way to expose an application running on a set of Pods as a network service.
+
+With Kubernetes you don’t need to modify your application to use an unfamiliar service discovery mechanism. Kubernetes gives Pods their own IP addresses and a single DNS name for a set of Pods, and can load-balance across them.
+
 ## [Create](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/#creating-a-service)
 
 ```
