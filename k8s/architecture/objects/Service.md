@@ -48,6 +48,7 @@ spec:
 - spec.ports.type
   - NodePorts
   - LoadBalancers
+- 
 - spec.ports.targetPort
   - A Service can map any incoming port to a targetPort.
   - By default and for convenience, the targetPort is set to the same value as the port field.
