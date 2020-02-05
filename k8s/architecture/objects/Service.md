@@ -20,7 +20,25 @@ kubectl apply -f api-service.yaml
 kubectl delete -f api-service.yaml
 ```
 
+or
+
+```
+kubectl delete service api-service
+```
+
+## List
+
+```
+kubectl get services
+```
+
 ## Get
+
+## Expose
+
+```
+kubectl expose api-deployment --type="LoadBalancer"
+```
 
 ## Defining a Service
 
@@ -46,9 +64,8 @@ spec:
 [ServicePort](https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies)
 
 - spec.ports.type
-  - NodePorts
+  - [NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport)
   - LoadBalancers
-- 
 - spec.ports.targetPort
   - A Service can map any incoming port to a targetPort.
   - By default and for convenience, the targetPort is set to the same value as the port field.
