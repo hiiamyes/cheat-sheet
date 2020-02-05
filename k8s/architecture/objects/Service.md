@@ -39,6 +39,12 @@ spec:
       targetPort: 9376
 ```
 
+[Service](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#service-v1-core)
+
+[ServiceSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#servicespec-v1-core)
+
+[ServicePort](https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies)
+
 - spec.ports.type
   - NodePorts
   - LoadBalancers

@@ -75,6 +75,10 @@ spec:
 ```
 
 - [imagePullPolicy](https://kubernetes.io/docs/concepts/containers/images)
+
   - Never: Use this for local development with minikube
   - IfNotPresent: Default
   - Always: Will always try to pull it from the registry.
+
+- [containerPort](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#containerport-v1-core)
+  - Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
