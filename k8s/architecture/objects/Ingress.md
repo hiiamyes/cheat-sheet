@@ -9,6 +9,11 @@ minikube addons enable ingress
 kubectl get pods -n kube-system
 ```
 
+```
+vim /etc/hosts
+[minikube ip] [host]
+```
+
 ## Example
 
 ```yaml
@@ -20,7 +25,8 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-    - http:
+    - host: service.test
+      http:
         paths:
           - path: /testpath
             backend:
