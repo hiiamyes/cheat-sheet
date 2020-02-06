@@ -6,6 +6,10 @@ ConfigMaps allow you to decouple configuration artifacts from image content to k
 
 https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/
 
+## API
+
+https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.15/#configmap-v1-core
+
 ## Create
 
 ```
