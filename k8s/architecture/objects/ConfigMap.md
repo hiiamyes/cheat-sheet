@@ -16,6 +16,16 @@ kubectl create configmap [NAME] [DATA]
   - a path to a directory containing one or more configuration files, indicated using the --from-file flag
   - key-value pairs, each specified using --from-literal flags
 
+```configmap.yml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: simpleconfig
+data:
+  foo: bar
+  hello: world
+```
+
 ```
 kubectl create -f api.env
 ```
@@ -23,3 +33,7 @@ kubectl create -f api.env
 ## Example
 
 ## Use ConfigMap to replace Node.js .env file
+
+## Reference
+
+https://itnext.io/learn-how-to-configure-your-kubernetes-apps-using-the-configmap-object-d8f30f99abeb
