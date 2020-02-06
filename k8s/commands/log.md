@@ -1,0 +1,5 @@
+# Log
+
+```
+kubectl logs [pod]
+```
