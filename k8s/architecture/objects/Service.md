@@ -55,6 +55,7 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 9376
+      nodePort: 30003
 ```
 
 [Service](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#service-v1-core)
@@ -69,3 +70,7 @@ spec:
 - spec.ports.targetPort
   - A Service can map any incoming port to a targetPort.
   - By default and for convenience, the targetPort is set to the same value as the port field.
+
+- `spec.ports.nodePort`
+  - range: 30000-32767
+  - expose to localhost!!
