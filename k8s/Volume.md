@@ -8,13 +8,13 @@ Second, when running Containers together in a Pod it is often necessary to share
 
 Docker also has a concept of volumes, though it is somewhat looser and less managed.
 
-## Hot reload . From docker volume to k8s volume
+## Hot reload . From docker volume to k8s volume by hostPath type volumne
 
-https://kubernetes.io/docs/concepts/storage/volumes/#local
+https://kubernetes.io/docs/concepts/storage/volumes/#hostpath
 
 docker
 
-```
+```sh
 docker run \
   -d \
   --name yes-db \
@@ -30,7 +30,7 @@ docker run \
 
 docker compose
 
-```
+```yml
 services:
   api:
     build: ./services/api
@@ -38,8 +38,27 @@ services:
       - ./services/api/src:/app/src
 ```
 
-k8s local volume
+k8s hostPath volume
 
-```
+A hostPath volume mounts a file or directory from the host node’s filesystem into your Pod. This is not something that most Pods will need, but it offers a powerful escape hatch for some applications.
 
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: test-pd
+spec:
+  containers:
+  - image: k8s.gcr.io/test-webserver
+    name: test-container
+    volumeMounts:
+    - mountPath: /test-pd
+      name: test-volume
+  volumes:
+  - name: test-volume
+    hostPath:
+      # directory location on host
+      path: /data
+      # this field is optional
+      type: Directory
 ```

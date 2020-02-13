@@ -23,7 +23,7 @@ kubectl
 ## List
 
 ```
-kubectl get api-deployment
+kubectl get deployment/api-deployment
 ```
 
 ## Describe
@@ -47,6 +47,19 @@ kubectl logs -f deployment/api-deployment
 ```
 
 -f: follow
+
+## Shell
+
+https://kubernetes.io/docs/tasks/debug-application-cluster/get-shell-running-container/
+
+```
+kubectl exec -it [TYPE/NAME] -- /bin/bash
+```
+
+-i, --stdin=false: Pass stdin to the container
+-t, --tty=false: Stdin is a TTY
+
+Note: The double dash symbol “–” is used to separate the arguments you want to pass to the command from the kubectl arguments.
 
 ## Config
 
