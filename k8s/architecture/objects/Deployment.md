@@ -53,7 +53,7 @@ kubectl logs -f deployment/api-deployment
 https://kubernetes.io/docs/tasks/debug-application-cluster/get-shell-running-container/
 
 ```
-kubectl exec -it [TYPE/NAME] -- /bin/bash
+kubectl exec -it [TYPE/NAME] -- /bin/sh
 ```
 
 -i, --stdin=false: Pass stdin to the container
