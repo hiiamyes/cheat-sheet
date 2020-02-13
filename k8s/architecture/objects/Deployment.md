@@ -40,9 +40,13 @@ kubectl delete -f api-deployment.yaml
 
 ## Log
 
+kubectl logs [TYPE/NAME]
+
 ```
-kubectl logs api-deployment
+kubectl logs -f deployment/api-deployment
 ```
+
+-f: follow
 
 ## Config
 
