@@ -4,6 +4,7 @@ https://stackoverflow.com/questions/47894378/is-it-possible-to-mount-a-local-com
 
 [ksync](https://github.com/ksync/ksync)
 
-[devspace](https://devspace.sh/)
+- [devspace](https://devspace.sh/)
+  - https://www.reddit.com/r/kubernetes/comments/dm1y95/devspace_sync_kubectl_cp_on_steroids_fast_and/
 
 [telepresence](https://www.telepresence.io/)
