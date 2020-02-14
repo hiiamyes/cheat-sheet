@@ -74,3 +74,4 @@ spec:
 - `spec.ports.nodePort`
   - range: 30000-32767
   - expose to localhost!!
+  

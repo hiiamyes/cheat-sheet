@@ -8,3 +8,8 @@ https://stackoverflow.com/questions/47894378/is-it-possible-to-mount-a-local-com
   - https://www.reddit.com/r/kubernetes/comments/dm1y95/devspace_sync_kubectl_cp_on_steroids_fast_and/
 
 [telepresence](https://www.telepresence.io/)
+
+
+---
+
+kubectl cp!!!!!
