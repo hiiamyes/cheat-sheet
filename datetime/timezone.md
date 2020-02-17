@@ -48,6 +48,7 @@ cat /etc/timezone
 
 # UTC
 
+- https://www.timeanddate.com/time/aboututc.html
 - Coordinated Universal Time
 
 # GMT
@@ -56,6 +57,8 @@ cat /etc/timezone
 - Asia/Taipei = GMT+8
 
 # UTC vs GMT
+
+https://www.timeanddate.com/time/gmt-utc-time.html
 
 Greenwich Mean Time (GMT) is often interchanged or confused with Coordinated Universal Time (UTC). But GMT is a time zone and UTC is a time standard.
 
