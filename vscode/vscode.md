@@ -21,6 +21,8 @@ config
 - https://blog.andrewray.me/autocomplete-es-modules-webpack-vscode/
 - https://code.visualstudio.com/docs/languages/jsconfig#_jsconfig-options
 
+Must Have
+
 ```json
 // jsconfig.json in project's root
 {
@@ -35,18 +37,9 @@ config
 }
 ```
 
-```js
-// webpack.config.js
-module.exports = {
-  resolve: {
-    modules: [path.resolve(__dirname), "node_modules"]
-  }
-};
-```
+One of
 
-or
-
-# https://webpack.js.org/configuration/resolve/#resolvealias
+Preferred: https://webpack.js.org/configuration/resolve/#resolvealias
 
 ```js
 // webpack.config.js
@@ -59,7 +52,7 @@ module.exports = {
 };
 ```
 
-or
+or `babel-plugin-module-resolver`
 
 ```json
 // npm install --save-dev babel-plugin-module-resolver
@@ -77,6 +70,19 @@ or
     ]
   ]
 }
+```
+
+or
+
+???
+
+```js
+// webpack.config.js
+module.exports = {
+  resolve: {
+    modules: [path.resolve(__dirname), "node_modules"]
+  }
+};
 ```
 
 - [path intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
