@@ -4,7 +4,13 @@ by `nvm`
 
 ## Check outdated packages
 
-`npm outdated`
+```
+npm outdated
+```
+
+```
+yarn outdated
+```
 
 ## Upgrade local packages
 
@@ -19,6 +25,7 @@ https://docs.npmjs.com/getting-started/updating-local-packages
 aliases: up, upgrade, udpate
 
 [npm-check-updates](https://github.com/tjunnone/npm-check-updates)
+
 
 ## Version Symbol
 

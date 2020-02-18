@@ -1,20 +1,31 @@
-# Rules
+# ESLint
+
+## Rules
 
 - "off" or 0 - turn the rule off
 - "warn" or 1 - turn the rule on as a warning (doesn’t affect exit code)
 - "error" or 2 - turn the rule on as an error (exit code is 1 when triggered)
 
-# IDE
+## IDE
 
-vscode
+VSCode extension
 
-# Example
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+```
+yarn add eslint
+vim .eslintrc
+
+```
+
+
+## Example
 
 React
 
 [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
 
-**Installation**
+## Installation
 
 npm
 
@@ -34,7 +45,7 @@ yarn
 )
 ```
 
-**Config**
+## Config
 
 ```
 // .eslintrc
@@ -56,11 +67,23 @@ or
 ```
 // .eslintrc
 {
+  "extends": "airbnb-base",
+  "rules": {
+    "import/no-extraneous-dependencies": [0]
+  }
+}
+```
+
+or
+
+```
+// .eslintrc
+{
   "extends": "react-app"
 }
 ```
 
-**Execution**
+## Execution
 
 ```
 node_modules/eslint/bin/eslint.js ./
@@ -75,14 +98,11 @@ Node.js
 ( export PKG=eslint-config-airbnb-base; npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest" )
 ```
 
-**Config**
+## Plugin
 
-```
-// .eslintrc
-{
-  "extends": "airbnb-base",
-  "rules": {
-    "import/no-extraneous-dependencies": [0]
-  }
-}
-```
+
+
+## Integrate with prettier
+
+https://prettier.io/docs/en/integrating-with-linters.html
+
