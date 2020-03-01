@@ -43,3 +43,11 @@ kubectl run hello-foo --image=foo:0.0.1 --image-pull-policy=Never
 
 eval $(minikube docker-env -u)
 ```
+
+## Accessing host resources
+
+https://minikube.sigs.k8s.io/docs/tasks/accessing-host-resources/
+
+```
+minikube ssh "route -n | grep ^0.0.0.0 | awk '{ print \$2 }'"
+```

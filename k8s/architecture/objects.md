@@ -1,3 +1,5 @@
+# Objects
+
 - Deployment
 - Service
 - ConfigMap
@@ -74,14 +76,6 @@ kubectl describe svc webapp1-svc
 ```
 kubectl get rc
 ```
-
-# ConfigMap
-
-For setting environment...
-
-ConfigMaps allow you to decouple configuration artifacts from image content to keep containerized applications portable.
-
-https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/
 
 # Reference
 

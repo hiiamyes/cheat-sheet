@@ -45,4 +45,30 @@ git push origin v0.1.16
 git push --delete origin build-1.1
 ```
 
+## cherry-pick
 
+```
+git cherry-pick
+```
+
+cherry-pick a merge commit
+
+```
+error: commit 9c4eb4b9825feed749ecac50566582d099800108 is a merge but no -m option was given.
+fatal: cherry-pick failed
+```
+
+-m: parent number
+
+## Get parent number of a merge commit
+
+https://stackoverflow.com/questions/9059335/how-to-get-the-parents-of-a-merge-commit-in-git
+
+git log {hash}
+
+```
+commit 9c4eb4b9825feed749ecac50566582d099800108 (tag: build-11873.1)
+Merge: ca3a5a7e1 8b8bd3c7b
+```
+
+`ca3a5a7e1` is 1, `8b8bd3c7b` is 2

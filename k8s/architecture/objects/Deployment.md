@@ -2,6 +2,8 @@
 
 https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
+A Deployment provides declarative updates for Pods and ReplicaSets.
+
 ## Create
 
 ```
@@ -21,7 +23,7 @@ kubectl
 ## List
 
 ```
-kubectl get api-deployment
+kubectl get deployment/api-deployment
 ```
 
 ## Describe
@@ -38,9 +40,26 @@ kubectl delete -f api-deployment.yaml
 
 ## Log
 
+kubectl logs [TYPE/NAME]
+
 ```
-kubectl logs api-deployment
+kubectl logs -f deployment/api-deployment
 ```
+
+-f: follow
+
+## Shell
+
+https://kubernetes.io/docs/tasks/debug-application-cluster/get-shell-running-container/
+
+```
+kubectl exec -it [TYPE/NAME] -- /bin/sh
+```
+
+-i, --stdin=false: Pass stdin to the container
+-t, --tty=false: Stdin is a TTY
+
+Note: The double dash symbol “–” is used to separate the arguments you want to pass to the command from the kubectl arguments.
 
 ## Config
 
@@ -73,6 +92,10 @@ spec:
 ```
 
 - [imagePullPolicy](https://kubernetes.io/docs/concepts/containers/images)
+
   - Never: Use this for local development with minikube
   - IfNotPresent: Default
   - Always: Will always try to pull it from the registry.
+
+- [containerPort](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#containerport-v1-core)
+  - Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.

@@ -56,3 +56,5 @@ do
 	commandN
 done
 ```
+
+## Command to variable
