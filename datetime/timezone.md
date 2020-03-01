@@ -24,7 +24,6 @@ gzip -dc tzdata-latest.tar.gz | tar -xf -
 ```
 brew install lzip
 lzip tzdb-2019a.tar.lz
-
 ```
 
 ## Native JS
@@ -45,3 +44,5 @@ timedatectl | grep "Time zone"
 cat /etc/timezone
 
 ```
+## Time zone name list
+
