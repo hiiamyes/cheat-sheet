@@ -24,3 +24,5 @@ Client errors
 404 Not Found
 
 # 5xx
+
+500 Internal Server Error
