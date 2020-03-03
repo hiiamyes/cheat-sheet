@@ -18,4 +18,15 @@ Integrating with Linters: Prettier can be integrated into workflows with existin
 
 ## VSCode Extension
 
+how to work with eslint?
+
+## Best pratice
+
+```.prettierrc
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "trailingComma": "all"
+}
+```
 https://github.com/prettier/prettier-vscode
