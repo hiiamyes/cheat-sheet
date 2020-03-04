@@ -46,7 +46,9 @@ docker run -d -p 80:80 -v $(pwd)/src:/app/src --name container-name image-name:l
 ```
 
 - [-d](https://docs.docker.com/engine/reference/run/#detached--d):
-- [--publish, -p](https://docs.docker.com/engine/reference/run/#expose-incoming-ports): Publish a container's port or a range of ports to the host
+- [--publish, -p](https://docs.docker.com/engine/reference/run/#expose-incoming-ports)
+  - Publish a container's port or a range of ports to the host
+  - format: ip:hostPort:containerPort | ip::containerPort | hostPort:containerPort | containerPort
 - -v:
 
 start a container with redis image and run in the background(`-d`)
@@ -109,7 +111,6 @@ https://stackoverflow.com/questions/22049212/copying-files-from-docker-container
 docker cp <containerId>:/file/path/within/container /host/path/target
 ```
 
-
 ## Better docker ps
 
 ```
@@ -131,3 +132,15 @@ docker ps --format '{{.Image}}'
 ### existing images can be found at registry.hub.docker.com
 
 `docker search redis`
+
+## Access host ip
+
+https://docs.docker.com/docker-for-mac/networking/
+
+`docker.for.mac.localhost`
+
+I WANT TO CONNECT FROM A CONTAINER TO A SERVICE ON THE HOST
+
+The host has a changing IP address (or none if you have no network access). From 18.03 onwards our recommendation is to connect to the special DNS name `host.docker.internal`, which resolves to the internal IP address used by the host. This is for development purpose and will not work in a production environment outside of Docker Desktop for Mac.
+
+The gateway is also reachable as `gateway.docker.internal`.

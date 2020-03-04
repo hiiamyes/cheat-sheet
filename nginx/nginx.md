@@ -85,3 +85,20 @@ Use the daemon off configuration directive described in http://wiki.nginx.org/Co
 ```
 CMD ["nginx", "-g", "daemon off;"]
 ```
+
+## CORS
+
+```
+docker run -p 80:80
+```
+
+## Configuration
+
+https://www.linode.com/docs/web-servers/nginx/how-to-configure-nginx/
+
+- All NGINX configuration files are located in the `/etc/nginx/` directory.
+- The primary configuration file is `/etc/nginx/nginx.conf.`
+
+- Configuration options in NGINX are called `directives`. 
+- Directives are organized into groups known as `blocks` or `contexts`.
+
