@@ -17,7 +17,7 @@ server {
   add_header 'Access-Control-Allow-Origin' $http_origin always;
   add_header 'Access-Control-Allow-Credentials' 'true';
   add_header 'Access-Control-Allow-Headers' 'Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With' always;
-  # Always allowed headers: Accept, Accept-Language, Content-Language, Content-Type
+  # Always allowed headers: Accept, Accept-Language, Content-Language
   add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE, PATCH';
 
   location / {
