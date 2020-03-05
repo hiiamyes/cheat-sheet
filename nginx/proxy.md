@@ -6,13 +6,31 @@ The servers that Nginx proxies requests to are known as upstream servers.
 
 ## Config
 
+https://gist.github.com/Stanback/7145487
+https://gist.github.com/iki/1247cd182acd1aa3ee4876acb7263def
+
 ```
-location / {
-  proxy_redirect off;
-  proxy_set_header host $host;
-  proxy_set_header X-real-ip $remote_addr;
-  proxy_set_header X-forward-for \$proxy_add_x_forwarded_for;
-  proxy_pass http://127.0.0.1:3000;
+server {
+  listen {{PARTNER_PORTAL_CONNECT_API_PORT}};
+  server_name localhost;
+
+  add_header 'Access-Control-Allow-Origin' $http_origin always;
+  add_header 'Access-Control-Allow-Credentials' 'true';
+  add_header 'Access-Control-Allow-Headers' '*, Authorization';
+  add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE, PATCH';
+
+  location / {
+
+    if ($request_method = 'OPTIONS') {
+      add_header 'Access-Control-Max-Age' 1728000;
+      add_header 'Content-Type' 'text/plain; charset=UTF-8';
+      add_header 'Content-Length' 0;
+      return 204;
+    }
+
+    proxy_redirect off;
+    proxy_pass {{EMQ_CORE_GENERIC_API_BASE_URL}};
+  }
 }
 ```
 
@@ -23,3 +41,11 @@ http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass
 `proxy_set_header`
 
 http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_set_header
+
+## Issues
+
+Get works, but post not works??
+
+https://stackoverflow.com/questions/35946006/nginx-cors-doesnt-work-for-post
+
+Add `always`
