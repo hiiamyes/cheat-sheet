@@ -50,3 +50,9 @@ Get works, but post not works??
 https://stackoverflow.com/questions/35946006/nginx-cors-doesnt-work-for-post
 
 Add `always`
+
+---
+
+set-cookie doesn't set cookie
+
+Client request mush set `withCredential` to `ture`
