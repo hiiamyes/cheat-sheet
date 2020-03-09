@@ -47,7 +47,7 @@ In tmux, hit the prefix `ctrl+b` and then:
     :movew<CR>  move window to the next unused number
 
 ## Panes (splits)
-
+ctrl b + 
     %  horizontal split
     "  vertical split
 
@@ -65,7 +65,7 @@ In tmux, hit the prefix `ctrl+b` and then:
 - [How to reorder windows](http://superuser.com/questions/343572/tmux-how-do-i-reorder-my-windows)
 
 ## Misc
-
+ctrl b + 
     d  detach
     t  big clock
     ?  list shortcuts
