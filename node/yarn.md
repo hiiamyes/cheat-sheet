@@ -8,3 +8,11 @@ Add `.yarnrc` file
 ```.yarnrc
 network-timeout 600000
 ```
+
+## With Docker
+
+```
+yarn --pure-lockfile
+```
+
+How to prevent re-install packages all the time!!
