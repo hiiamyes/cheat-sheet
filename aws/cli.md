@@ -15,7 +15,7 @@ aws s3 cp --profile pangolin s3://yes-pangolin/db-backup/$file ./
 # Installation
 
 ```
-brew install aws
+brew install awscli
 aws configure
 ```
 
