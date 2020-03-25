@@ -64,6 +64,10 @@ output = json
 output = json
 ```
 
+```
+aws configure
+```
+
 # Profile
 
 # Uninstalling
