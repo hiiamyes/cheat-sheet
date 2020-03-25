@@ -1,9 +1,14 @@
 https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
+
 1xx
 
-2xx
+# 2xx
+
+200 OK
+
+201 Created
 
 # 3xx
 
