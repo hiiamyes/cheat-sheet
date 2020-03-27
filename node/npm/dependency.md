@@ -14,6 +14,11 @@ Dependencies serve many different purposes. Some dependencies are needed to buil
 - Packages that are only needed for local development and testing.
 - These are your development dependencies. Dependencies that you need at some point in the development workflow but not while running your code (e.g. Babel or Flow).
 
+## dependencies vs devDependencies
+
+https://medium.com/@dylanavery720/npmmmm-1-dev-dependencies-dependencies-8931c2583b0c
+
+
 ## peerDependencies:
 
 - Peer dependencies are a special type of dependency that would only ever come up if you were publishing your own package.

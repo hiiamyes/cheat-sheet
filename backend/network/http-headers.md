@@ -19,3 +19,10 @@ So after trying some different things, the issue was with setting the domain in 
 ```
 
 and now the cookie is being set.
+
+https://yukaii.tw/hi-tips/2017-04-13-rewrite-cookie-cross-subdomain-using-nginx/
+
+Change
+`Set-Cookie: xxx.id=123nfasdf;lkjn; Domain=hello.world`
+to
+`Set-Cookie: xxx.id=123nfasdf;lkjn; Domain=.hello.world`
