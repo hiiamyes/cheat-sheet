@@ -82,3 +82,6 @@ Notes:
 TODO:
 
 - Conf copy mode to use system clipboard. See PragProg book.
+
+
+## Search
