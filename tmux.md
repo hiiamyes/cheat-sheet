@@ -88,6 +88,7 @@ TODO:
 ## Search
 
 ctrl b + [
+crtl s
 
 ```
 n - next search match
