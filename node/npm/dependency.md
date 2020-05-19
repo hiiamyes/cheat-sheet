@@ -18,6 +18,7 @@ Dependencies serve many different purposes. Some dependencies are needed to buil
 
 https://medium.com/@dylanavery720/npmmmm-1-dev-dependencies-dependencies-8931c2583b0c
 
+The difference between these two, is that devDependencies are modules which are only required during development, while dependencies are modules which are also required at runtime.
 
 ## peerDependencies:
 
@@ -29,8 +30,6 @@ Issue
 ```
 warning " > styled-components@5.0.1" has unmet peer dependency "react-is@>= 16.8.0".
 ```
-
-
 
 ## optionalDependencies:
 
