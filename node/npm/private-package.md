@@ -28,6 +28,10 @@ There is, using git submodule.
 - copy your dist folder content in the empty repo, add and commit, and push.
 - add that branch as a dist folder submodule.
 
+- [orphan branch](https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt---orphanltnewbranchgt)
+
+- [git submodule](https://git-scm.com/docs/git-submodule)
+
 ```
 git checkout --orphan deploy
 git add .
