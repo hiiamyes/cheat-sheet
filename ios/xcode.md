@@ -12,7 +12,7 @@ From Apple's website
 
 都需要登入開發者帳號。
 
-Through `xcode-install`
+## Through `xcode-install`
 
 ```
 gem install xcode-install
@@ -20,6 +20,8 @@ xcversion update
 xcversion list
 xcversion install 11.4
 ```
+
+Keeps timeout...
 
 ## xcode-select
 
