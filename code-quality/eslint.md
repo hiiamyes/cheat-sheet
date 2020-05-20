@@ -53,44 +53,6 @@ yarn
 )
 ```
 
-## Config
-
-```
-// .eslintrc
-{
-  "extends": "airbnb",
-  "globals": {
-    "L": false
-  },
-  "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/prop-types": [0],
-    "import/no-extraneous-dependencies": [0]
-  }
-}
-```
-
-or
-
-```
-// .eslintrc
-{
-  "extends": "airbnb-base",
-  "rules": {
-    "import/no-extraneous-dependencies": [0]
-  }
-}
-```
-
-or
-
-```
-// .eslintrc
-{
-  "extends": "react-app"
-}
-```
-
 ## Extend config
 
 ```
@@ -148,5 +110,18 @@ vim .eslintrc
 ```.eslintrc
 {
   "extends": ["prettier"]
+}
+```
+
+## My onfig
+
+```
+// .eslintrc
+{
+  "extends": ["react-app", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "warn"
+  }
 }
 ```
