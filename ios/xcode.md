@@ -20,3 +20,10 @@ xcversion update
 xcversion list
 xcversion install 11.4
 ```
+
+## xcode-select
+
+```
+xcode-select -version
+xcode-select -print-path
+```
