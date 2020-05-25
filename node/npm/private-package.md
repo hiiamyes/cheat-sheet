@@ -39,7 +39,17 @@ git commit -m "deploybranch folder content"
 git push -u origin deploy
 
 git checkout master
-git submodule add -b deploy -- /remote/url/of/your/own/repo dist
+git submodule add -b deploy -- /remote/url/of/your/own/repo deploy
 git commit -m "Add deploy branch as submodule"
 git push
+```
+
+install private package
+
+- https://classic.yarnpkg.com/en/docs/cli/add/
+
+yarn add <git remote url>#<branch/commit/tag> installs a package from a remote git repository at specific git branch, git commit or git tag.
+
+```
+yarn add git@github.com:hiiamyes/frontend-cookbook.git#dist
 ```
