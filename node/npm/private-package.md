@@ -51,5 +51,12 @@ install private package
 yarn add <git remote url>#<branch/commit/tag> installs a package from a remote git repository at specific git branch, git commit or git tag.
 
 ```
-yarn add git@github.com:hiiamyes/frontend-cookbook.git#dist
+yarn add git@github.com:hiiamyes/frontend-cookbook.git#deploy
+```
+
+Couldn't find any versions for "git" that matches "github.com:emq-inc/emq-ui-kit.git#deploy"
+? Please choose a version of "git" from this list: (Use arrow keys)
+
+```
+yarn add https://github.com/emq-inc/emq-ui-kit.git#deploy
 ```
