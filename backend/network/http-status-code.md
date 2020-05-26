@@ -27,7 +27,11 @@ Client errors
 
 401 Unauthorized
 
-403 Forbidden
+403 Forbidden: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+
+The HTTP 403 Forbidden client error status response code indicates that the server understood the request but refuses to authorize it.
+
+This status is similar to 401, but in this case, re-authenticating will make no difference. The access is permanently forbidden and tied to the application logic, such as insufficient rights to a resource.
 
 404 Not Found
 
