@@ -40,9 +40,12 @@ Two additional tags for more engagement
 
 https://www.mainstreethost.com/blog/social-media-image-size-cheat-sheet/
 
-- For Facebook feed post images, the optimal size is 940 x 788 pixels.
-- For a Facebook feed ad and shared link image, use 1200 x 630 pixels.
+- For Facebook feed post images
+  - the optimal size is 940 x 788 pixels.
+- For a Facebook feed ad and shared link image
+  - use 1200 x 630 pixels.
 
 Twitter
 
-- For Twitter card images, use 800 x 320 pixels.
+- For Twitter card images
+  - use 800 x 320 pixels.

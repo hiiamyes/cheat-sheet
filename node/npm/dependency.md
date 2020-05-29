@@ -14,6 +14,12 @@ Dependencies serve many different purposes. Some dependencies are needed to buil
 - Packages that are only needed for local development and testing.
 - These are your development dependencies. Dependencies that you need at some point in the development workflow but not while running your code (e.g. Babel or Flow).
 
+## dependencies vs devDependencies
+
+https://medium.com/@dylanavery720/npmmmm-1-dev-dependencies-dependencies-8931c2583b0c
+
+The difference between these two, is that devDependencies are modules which are only required during development, while dependencies are modules which are also required at runtime.
+
 ## peerDependencies:
 
 - Peer dependencies are a special type of dependency that would only ever come up if you were publishing your own package.
@@ -24,8 +30,6 @@ Issue
 ```
 warning " > styled-components@5.0.1" has unmet peer dependency "react-is@>= 16.8.0".
 ```
-
-
 
 ## optionalDependencies:
 

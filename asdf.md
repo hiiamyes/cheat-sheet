@@ -23,3 +23,11 @@ asdf list python
 asdf install python latest
 asdf global python 3.6.2
 ```
+
+## Ruby
+
+```
+asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
+asdf install ruby latest
+asdf global ruby 2.7.1
+```

@@ -47,9 +47,10 @@ In tmux, hit the prefix `ctrl+b` and then:
     :movew<CR>  move window to the next unused number
 
 ## Panes (splits)
-ctrl b + 
-    %  horizontal split
-    "  vertical split
+
+ctrl b +
+% horizontal split
+" vertical split
 
     o  swap panes
     q  show pane numbers
@@ -65,11 +66,12 @@ ctrl b +
 - [How to reorder windows](http://superuser.com/questions/343572/tmux-how-do-i-reorder-my-windows)
 
 ## Misc
-ctrl b + 
-    d  detach
-    t  big clock
-    ?  list shortcuts
-    :  prompt
+
+ctrl b +
+d detach
+t big clock
+? list shortcuts
+: prompt
 
 Resources:
 
@@ -82,3 +84,14 @@ Notes:
 TODO:
 
 - Conf copy mode to use system clipboard. See PragProg book.
+
+## Search
+
+ctrl b + [
+crtl s
+
+```
+n - next search match
+? - search backward
+/ - search forward
+```
