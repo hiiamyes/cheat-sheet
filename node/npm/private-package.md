@@ -60,3 +60,8 @@ Couldn't find any versions for "git" that matches "github.com:emq-inc/emq-ui-kit
 ```
 yarn add https://github.com/emq-inc/emq-ui-kit.git#deploy
 ```
+
+## Npm prepare for private npm package
+
+- https://cloudfour.com/thinks/how-to-distribute-a-pattern-library-as-an-npm-package-from-a-private-git-repo/#distribute-your-npm-package-from-git
+- https://blog.jim-nielsen.com/2018/installing-and-building-an-npm-package-from-github/
