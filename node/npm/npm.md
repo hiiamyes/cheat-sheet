@@ -26,7 +26,6 @@ aliases: up, upgrade, udpate
 
 [npm-check-updates](https://github.com/tjunnone/npm-check-updates)
 
-
 ## Version Symbol
 
 - [semver](https://docs.npmjs.com/misc/semver): The semantic versioner for npm `[major, minor, patch]`
@@ -62,6 +61,16 @@ https://docs.npmjs.com/files/package.json
 `yarn info antd version`
 
 ## [npm-scope](https://docs.npmjs.com/misc/scope)
+
+All npm packages have a name. Some package names also have a scope. A scope follows the usual rules for package names (URL-safe characters, no leading dots or underscores). When used in package names, scopes are preceded by an `@` symbol and followed by a slash, e.g.
+
+`@somescope/somepackagename`
+
+Scopes are a way of grouping related packages together, and also affect a few things about the way npm treats the package.
+
+Each npm user/organization has their own scope, and only you can add packages in your scope. This means you don’t have to worry about someone taking your package name ahead of you. Thus it is also a good way to signal official packages for organizations.
+
+ex:
 
 - [@fortawesome/free-solic-svg-icons](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons)
 
