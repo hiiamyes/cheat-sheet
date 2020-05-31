@@ -31,6 +31,12 @@ Issue
 warning " > styled-components@5.0.1" has unmet peer dependency "react-is@>= 16.8.0".
 ```
 
+```
+yarn add -P
+yarn add --peer
+```
+
+
 ## optionalDependencies:
 
 - Optional dependencies are just that: optional. If they fail to install, Yarn will still say the install process was successful.
