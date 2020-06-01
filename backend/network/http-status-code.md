@@ -23,7 +23,7 @@ To a user they seem to work the same way, but they aren’t the same as far as s
 
 Client errors
 
-400 Bad Request
+400 Bad Request: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
 
 401 Unauthorized
 
