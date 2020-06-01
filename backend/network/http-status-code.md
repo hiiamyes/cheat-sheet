@@ -37,4 +37,4 @@ This status is similar to 401, but in this case, re-authenticating will make no 
 
 # 5xx
 
-500 Internal Server Error
+500 Internal Server Error: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
