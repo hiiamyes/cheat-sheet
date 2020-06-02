@@ -33,14 +33,14 @@ There is, using git submodule.
 - [git submodule](https://git-scm.com/docs/git-submodule)
 
 ```
-git checkout --orphan deploy
+git checkout --orphan release
 git add .
-git commit -m "deploybranch folder content"
-git push -u origin deploy
+git commit -m "v1.0.0"
+git push -u origin release
 
 git checkout master
-git submodule add -b deploy -- /remote/url/of/your/own/repo deploy
-git commit -m "Add deploy branch as submodule"
+git submodule add -b release -- /remote/url/of/your/own/repo release
+git commit -m "Add release branch as submodule"
 git push
 ```
 
