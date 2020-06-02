@@ -56,15 +56,15 @@ yarn add <git remote url>#<branch/commit/tag> installs a package from a remote g
 yarn add git@github.com:hiiamyes/frontend-cookbook.git#release
 ```
 
-Couldn't find any versions for "git" that matches "github.com:emq-inc/emq-ui-kit.git#release"
+Couldn't find any versions for "git" that matches "github.com:hiiamyes/frontend-cookbook.git#release"
 ? Please choose a version of "git" from this list: (Use arrow keys)
 
 ```
-yarn add https://github.com/emq-inc/emq-ui-kit.git#release
+yarn add https://github.com/hiiamyes/frontend-cookbook.git#release
 ```
 
 ```
-yarn add git+ssh://github.com/emq-inc/emq-ui-kit.git#release
+yarn add git+ssh://github.com/hiiamyes/frontend-cookbook.git#release
 ```
 
 ## Npm prepare for private npm package
