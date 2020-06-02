@@ -34,12 +34,14 @@ There is, using git submodule.
 
 ```
 git checkout --orphan release
-git add .
+git reset // unstage all changes
+git add package.json README.MD
+git clean -df // remove all other untracted files and folder
 git commit -m "v1.0.0"
 git push -u origin release
 
 git checkout master
-git submodule add -b release -- /remote/url/of/your/own/repo release
+git submodule add -b release -- https://github.com/hiiamyes/frontend-cookbook.git release
 git commit -m "Add release branch as submodule"
 git push
 ```
