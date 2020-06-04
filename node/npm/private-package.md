@@ -33,14 +33,16 @@ There is, using git submodule.
 - [git submodule](https://git-scm.com/docs/git-submodule)
 
 ```
-git checkout --orphan deploy
-git add .
-git commit -m "deploybranch folder content"
-git push -u origin deploy
+git checkout --orphan release
+git reset // unstage all changes
+git add package.json README.MD
+git clean -df // remove all other untracted files and folder
+git commit -m "v1.0.0"
+git push -u origin release
 
 git checkout master
-git submodule add -b deploy -- /remote/url/of/your/own/repo deploy
-git commit -m "Add deploy branch as submodule"
+git submodule add -b release -- https://github.com/hiiamyes/frontend-cookbook.git release
+git commit -m "Add release branch as submodule"
 git push
 ```
 
@@ -51,18 +53,18 @@ install private package
 yarn add <git remote url>#<branch/commit/tag> installs a package from a remote git repository at specific git branch, git commit or git tag.
 
 ```
-yarn add git@github.com:hiiamyes/frontend-cookbook.git#deploy
+yarn add git@github.com:hiiamyes/frontend-cookbook.git#release
 ```
 
-Couldn't find any versions for "git" that matches "github.com:emq-inc/emq-ui-kit.git#deploy"
+Couldn't find any versions for "git" that matches "github.com:hiiamyes/frontend-cookbook.git#release"
 ? Please choose a version of "git" from this list: (Use arrow keys)
 
 ```
-yarn add https://github.com/emq-inc/emq-ui-kit.git#deploy
+yarn add https://github.com/hiiamyes/frontend-cookbook.git#release
 ```
 
 ```
-yarn add git+ssh://github.com/emq-inc/emq-ui-kit.git#deploy
+yarn add git+ssh://github.com/hiiamyes/frontend-cookbook.git#release
 ```
 
 ## Npm prepare for private npm package
