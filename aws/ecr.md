@@ -46,6 +46,7 @@ docker push 516329534218.dkr.ecr.us-east-1.amazonaws.com/hiiiike_web:latest
 https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-pull-ecr-image.html
 
 ```
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 516329534218.dkr.ecr.us-east-1.amazonaws.com
 aws ecr describe-repositories
 aws ecr describe-images --repository-name hiiiike_web
 docker pull 516329534218.dkr.ecr.us-east-1.amazonaws.com/hiiiike_web:latest
