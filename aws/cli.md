@@ -12,7 +12,9 @@ aws s3 cp --profile pangolin s3://yes-pangolin/db-backup/$file ./
 
 - --profile
 
-# Installation
+## Installation
+
+**macOS**
 
 v1: https://docs.aws.amazon.com/cli/latest/userguide/install-macos.html
 v2: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html
@@ -30,7 +32,19 @@ $ which aws
 $ aws --version
 ```
 
-# Credential
+**Linux**
+
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
+
+```
+sudo apt install unzip
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+aws --version
+```
+
+## Credential
 
 ```
 cat ~/.aws/credentials
@@ -48,7 +62,7 @@ aws_access_key_id = key-id
 aws_secret_access_key = key
 ```
 
-# Config
+## Config
 
 ```
 cat ~/.aws/config
@@ -68,9 +82,9 @@ output = json
 aws configure
 ```
 
-# Profile
+## Profile
 
-# Uninstalling
+## Uninstalling
 
 Uninstalling
 To uninstall the AWS CLI version 2, run the following commands, substituting the paths you used to install.
