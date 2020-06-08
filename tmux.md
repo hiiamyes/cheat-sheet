@@ -1,4 +1,5 @@
-Source: https://gist.github.com/henrik/1967800
+- https://tmuxcheatsheet.com/
+- Source: https://gist.github.com/henrik/1967800
 
 # tmux cheatsheet
 
@@ -32,9 +33,18 @@ In tmux, hit the prefix `ctrl+b` and then:
 
 ## Sessions
 
-    :new<CR>  new session
-    s  list sessions
-    $  name session
+Create session
+
+```
+tmux new -s hiiiike
+```
+
+List sessions
+
+```
+tmux ls
+Ctrl + b s
+```
 
 ## Windows (tabs)
 
@@ -45,6 +55,10 @@ In tmux, hit the prefix `ctrl+b` and then:
     &           kill window
     .           move window - prompted for a new number
     :movew<CR>  move window to the next unused number
+
+```
+ctrl + b f
+```
 
 ## Panes (splits)
 
