@@ -116,7 +116,7 @@ vim .eslintrc
 ## My onfig
 
 ```
-yarn add --dev eslint-config-prettier eslint-plugin-prettier
+yarn add --dev eslint prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
 ```
