@@ -116,6 +116,10 @@ vim .eslintrc
 ## My onfig
 
 ```
+yarn add --dev eslint-config-prettier eslint-plugin-prettier
+```
+
+```
 // .eslintrc
 {
   "extends": ["react-app", "prettier"],
