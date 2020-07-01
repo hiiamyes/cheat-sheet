@@ -46,6 +46,8 @@ git commit -m "Add release branch as submodule"
 git push
 ```
 
+## Install by yarn
+
 install private package
 
 - https://classic.yarnpkg.com/en/docs/cli/add/
@@ -66,6 +68,19 @@ yarn add https://github.com/hiiamyes/frontend-cookbook.git#release
 ```
 yarn add git+ssh://github.com/hiiamyes/frontend-cookbook.git#release
 ```
+
+## Install by submodule
+
+If you're not allowed to ssh Github in CI
+
+```
+git submodule add -b release -- https://github.com/hiiamyes/frontend-cookbook.git frontend-cookbook
+yarn add file:emq-ui-kit
+```
+
+## Remove submodule
+
+
 
 ## Npm prepare for private npm package
 
