@@ -80,7 +80,9 @@ yarn add file:emq-ui-kit
 
 ## Remove submodule
 
-
+```
+rm -rf .git/modules/services/web/frontend-cookbook/
+```
 
 ## Npm prepare for private npm package
 
