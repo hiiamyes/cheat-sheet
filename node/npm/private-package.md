@@ -39,9 +39,13 @@ git add package.json README.MD
 git clean -df // remove all other untracted files and folder
 git commit -m "v1.0.0"
 git push -u origin release
+```
 
+Optional, can also ignore the release folder
+
+```
 git checkout master
-git submodule add -b release -- https://github.com/hiiamyes/frontend-cookbook.git release
+git submodule add --branch release [tag] -- https://github.com/hiiamyes/frontend-cookbook.git release
 git commit -m "Add release branch as submodule"
 git push
 ```
@@ -76,6 +80,13 @@ If you're not allowed to ssh Github in CI
 ```
 git submodule add -b release -- https://github.com/hiiamyes/frontend-cookbook.git frontend-cookbook
 yarn add file:emq-ui-kit
+```
+
+## Update submpdi;e
+
+```
+git pull --recurse-submodules
+git submodule update --remote --recursive
 ```
 
 ## Remove submodule
