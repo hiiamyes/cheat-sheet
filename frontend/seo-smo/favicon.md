@@ -1,10 +1,20 @@
 # Favicon
 
-## webpack plugin
+## HtmlWebpackPlugin
+
+https://github.com/jantimon/html-webpack-plugin
+
+```js
+HtmlWebpackPlugin({
+  favicon: path.resolve(__dirname, "../src/images/icons/favicon.ico"),
+});
+```
+
+## Webpack plugin
 
 https://github.com/jantimon/favicons-webpack-plugin
 
-```.js
+```js
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 ...
