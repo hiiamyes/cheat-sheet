@@ -6,7 +6,7 @@ https://github.com/jantimon/html-webpack-plugin
 
 ```js
 HtmlWebpackPlugin({
-  favicon: path.resolve(__dirname, "../src/images/icons/favicon.ico"),
+  favicon: path.resolve(__dirname, "../src/images/icons/favicon.png"),
 });
 
 <link rel="shortcut icon" href="<%= htmlWebpackPlugin.files.favicon %>" />;
