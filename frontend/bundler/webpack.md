@@ -45,4 +45,7 @@ webpack --json > stats.json
 
 - [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 
-webpack stats JSON file
+```
+    "webpack:profile": "webpack --profile --json > stats.json",
+    "analyze:bundle": "webpack:profile webpack-bundle-analyzer stats.json"
+```
