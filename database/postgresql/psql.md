@@ -98,3 +98,9 @@ Quits the psql program. In a script file, only execution of that script is termi
 ```
 psql -U yes -d yes-db -c 'Select * from yes-table'
 ```
+
+## Pretty
+
+```
+\x on
+```
