@@ -4,20 +4,23 @@
 - Github: version control
 - s3: deployment
 - i18next + react-i18next: framework
-  - https://github.com/dotcore64/i18next-fetch-backend
   - https://react.i18next.com/
+  - https://github.com/dotcore64/i18next-fetch-backend
+  - https://github.com/i18next/i18next-browser-languageDetector
 
 ## Getting started
 
 ```
-yarn add i18next react-i18next
+yarn add i18next react-i18next i18next-browser-languagedetector
 ```
 
 ```i18n.js
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import LanguageDetector from 'i18next-browser-languagedetector';
+
 if (!i18n.isInitialized) {
-  i18n.use(initReactI18next).init({
+  i18n.use(initReactI18next).use(LanguageDetector).init({
     fallbackLng: "en",
     ns: ["translations"],
     defaultNS: "translations",
