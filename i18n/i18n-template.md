@@ -5,6 +5,7 @@
 - s3: deployment
 - i18next + react-i18next: framework
   - https://github.com/dotcore64/i18next-fetch-backend
+  - https://react.i18next.com/
 
 ## Getting started
 
@@ -22,7 +23,7 @@ if (!i18n.isInitialized) {
     defaultNS: "translations",
     debug: process.env.NODE_ENV !== "production",
     interpolation: {
-      escapeValue: false, // not needed for react!!
+      escapeValue: false, // react already safes from xss
     },
     react: {
       wait: true,
@@ -54,6 +55,16 @@ export default i18n;
 
 ```
 
+```
+
+## Usage
+
+```
+import { useTranslation } from 'react-i18next';
+function MyComponent () {
+  const { t, i18n } = useTranslation();
+  return <h1>{t('Welcome to React')}</h1>
+}
 ```
 
 ## Async init
