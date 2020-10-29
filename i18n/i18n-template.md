@@ -1,9 +1,10 @@
-# coddddddde
+# i18n template
 
 - Airtable: management
 - Github: version control
 - s3: deployment
 - i18next + react-i18next: framework
+  - https://github.com/dotcore64/i18next-fetch-backend
 
 ## Getting started
 
@@ -54,3 +55,5 @@ export default i18n;
 ```
 
 ```
+
+## Async init
