@@ -22,3 +22,14 @@ ALLOW_SPLIT_BEFORE_DICT_VALUE = False
 INDENT_DICTIONARY_VALUE = True
 SPLIT_BEFORE_FIRST_ARGUMENT = True
 ```
+
+## Virtualenv
+
+https://virtualenv.pypa.io/en/latest/cli_interface.html
+
+```
+virtualenv env
+virtualenv -p /Users/yes/.asdf/shims/python env
+source env/bin/active
+python --version
+```
