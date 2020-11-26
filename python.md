@@ -32,4 +32,5 @@ virtualenv env
 virtualenv -p /Users/yes/.asdf/shims/python env
 source env/bin/active
 python --version
+pip install -r requirements.txt
 ```

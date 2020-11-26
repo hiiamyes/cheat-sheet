@@ -29,3 +29,9 @@ Keeps timeout...
 xcode-select -version
 xcode-select -print-path
 ```
+
+## check xcode version
+
+```
+/usr/bin/xcodebuild -version
+```
