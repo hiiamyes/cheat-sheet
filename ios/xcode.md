@@ -28,6 +28,7 @@ Keeps timeout...
 ```
 xcode-select -version
 xcode-select -print-path
+xcode-select --switch <path>
 ```
 
 ## check xcode version
