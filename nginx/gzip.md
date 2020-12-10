@@ -4,7 +4,7 @@ https://www.linode.com/docs/web-servers/nginx/how-to-configure-nginx/#the-http-b
 
 https://docs.nginx.com/nginx/admin-guide/web-server/compression/
 
-```
+```/etc/nginx/nginx.conf
 http {
     include       /etc/nginx/mime.types;
     default_type  application/octet-stream;
@@ -25,3 +25,7 @@ http {
     include /etc/nginx/conf.d/*.conf;
 }
 ```
+
+## How to check
+
+https://www.giftofspeed.com/gzip-test/
