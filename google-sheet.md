@@ -2,7 +2,9 @@
 
 ## query
 
-=arrayformula(QUERY(employees!A:D,"select A where C = '"&B2&"'"))
+=QUERY(employees!A:D,"select A where C = '"&B2&"'")
+
+arrayformula for query is not supported
 
 ## vlookup
 
