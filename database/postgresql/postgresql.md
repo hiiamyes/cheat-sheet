@@ -4,6 +4,10 @@
 
 ### Install
 
+```
+asdf plugin-add postgres
+```
+
 ### Stop / Start / Restart
 
 Run this command to manually start the server:
