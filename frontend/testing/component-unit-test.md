@@ -1,6 +1,8 @@
 # Component unit test
 
-jest + [react-testing-library](https://github.com/kentcdodds/react-testing-library)
+- jest
+- [react-testing-library](https://github.com/kentcdodds/react-testing-library)
+- [jest-dom](https://github.com/testing-library/jest-dom)
 
 ## Getting started
 
@@ -13,6 +15,7 @@ yarn add -D jest react-testing-library
 ```js
 import React from "react";
 import { render, cleanup, fireEvent } from "@testing-library/react";
+import '@testing-library/jest-dom'
 import MoneyInput from "./index";
 
 afterEach(cleanup);

@@ -41,10 +41,11 @@ package.json:
 ```js
 // jest.config.js
 module.exports = {
-  coverageDirectory: "<rootDir>/test-coverage",
-  collectCoverageFrom: ["src/**/*.{js,jsx}"],
-  coverageReporters: ["html"],
-  setupFiles: ["jest-localstorage-mock"],
-  setupFilesAfterEnv: ["<rootDir>/test/setup.js"],
+  // coverageDirectory: "<rootDir>/test-coverage",
+  // collectCoverageFrom: ["src/**/*.{js,jsx}"],
+  // coverageReporters: ["html"],
+  // setupFiles: ["jest-localstorage-mock"],
+  // setupFilesAfterEnv: ["<rootDir>/test/setup.js"],
+  moduleDirectories: ["node_modules", "./"],
 };
 ```
