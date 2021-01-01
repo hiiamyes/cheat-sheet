@@ -1,4 +1,15 @@
-# Formatter
+# Python
+
+```
+asdf install python 3.9.0
+asdf global python 3.9.0
+python -m venv myenv
+python -m virtualenv myenv
+source myenv/bin/active
+pip install -r requirements.txt
+```
+
+## Formatter
 
 Proposed Solution
 

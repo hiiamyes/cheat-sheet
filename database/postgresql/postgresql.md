@@ -4,6 +4,14 @@
 
 ### Install
 
+```
+asdf plugin-add postgres
+asdf list all postgres
+asdf install postgres 11.10
+asdf global postgres 11.10
+
+```
+
 ### Stop / Start / Restart
 
 Run this command to manually start the server:
