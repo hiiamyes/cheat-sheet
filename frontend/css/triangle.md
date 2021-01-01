@@ -3,6 +3,7 @@
 up
 
 ```css
+content: "";
 width: 0;
 height: 0;
 border-left: 5px solid transparent;
