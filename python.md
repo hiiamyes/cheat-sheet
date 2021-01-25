@@ -1,11 +1,13 @@
 # Python
 
+https://docs.python.org/3/tutorial/venv.html#creating-virtual-environments
+
 ```
 asdf install python 3.9.0
 asdf global python 3.9.0
 python -m venv myenv
-python -m virtualenv myenv
-source myenv/bin/active
+<!-- python -m virtualenv myenv -->
+source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
