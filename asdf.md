@@ -6,10 +6,22 @@ asdf-vm is a CLI tool that can manage multiple language runtime versions on a pe
 
 https://asdf-vm.com/#/core-manage-asdf-vm
 
+## Installation
+
+https://asdf-vm.com/#/core-manage-asdf?id=install
+
+mac
+
 ```
 brew install asdf
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
 echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
+```
+
+linux
+
+```
+sudo apt install curl git
 ```
 
 ## Python
