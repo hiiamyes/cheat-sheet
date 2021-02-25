@@ -25,6 +25,8 @@ Keeps timeout...
 
 ## xcode-select
 
+https://cms.35g.tw/coding/xcode-select-%E5%88%87%E6%8F%9Bxcode%E9%A0%90%E8%A8%AD%E8%B7%AF%E5%BE%91/
+
 ```
 xcode-select -version
 xcode-select -print-path
