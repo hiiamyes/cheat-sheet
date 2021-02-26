@@ -23,8 +23,21 @@ linux
 ```
 sudo apt install curl git
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
+```
+
+Add the following to ~/.bashrc:
+
+```
 . $HOME/.asdf/asdf.sh
+```
+
+Completions must be configured by adding the following to your .bashrc:
+
+```
 . $HOME/.asdf/completions/asdf.bash
+```
+
+```
 asdf plugin list
 ```
 
