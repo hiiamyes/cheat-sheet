@@ -13,6 +13,7 @@ vim ~/.bash_profile
 
 ```sh
 # ~/.bash_profile
+# git-completion
 if [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash
 fi
@@ -27,6 +28,7 @@ vim ~/.zshrc
 
 ```sh
 # ~/.zshrc
+# git-completion
 fpath=(~/.zsh $fpath)
 ```
 
