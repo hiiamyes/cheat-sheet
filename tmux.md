@@ -1,7 +1,18 @@
+# tmux
 - https://tmuxcheatsheet.com/
 - Source: https://gist.github.com/henrik/1967800
 
-# tmux cheatsheet
+## Installation
+
+https://linuxize.com/post/getting-started-with-tmux/#installing-tmux-on-macos
+
+mac
+
+```
+brew install tmux
+```
+
+## cheatsheet
 
 As configured in [my dotfiles](https://github.com/henrik/dotfiles/blob/master/tmux.conf).
 
