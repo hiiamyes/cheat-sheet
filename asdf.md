@@ -66,6 +66,9 @@ asdf global ruby 2.7.1
 https://github.com/asdf-vm/asdf-nodejs
 
 ```
+GNU Core Utils - brew install coreutils
+GnuPG - brew install gpg
+brew install gawk
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 bash -c '${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-release-team-keyring'
 asdf list nodejs
