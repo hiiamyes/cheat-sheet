@@ -138,3 +138,15 @@ On tmux 2.1 and above, add set
 ```
 
 and start new tmux/tmate session. To copy text - hold Shift key while selecting with the mouse.
+
+## copy
+
+https://unix.stackexchange.com/questions/318281/how-to-copy-and-paste-with-a-mouse-with-tmux
+
+tmux has its own internal clipboard, which is not copied to the system clipboard.
+
+Since you are on macOS, you can however simply ask tmux to transfer its clipboard to the system clipboard (the usual one). This is done with the command below, which, for convenience, can be bound to Ctrl-b Ctrl-c (if you're using the standard Ctrl-b for invoking tmux commands) in your .tmux.conf:
+
+bind C-c run "tmux save-buffer - | pbcopy"  # Copy to OS X
+Thus, you can simply select text with your mouse while using tmux (no key to press). tmux is great in that it will select text only in the current pane. This text is copied to tmux's internal clipboard. You can then simply transfer it to the system clipboard with Ctrl-b Ctrl-c.
+
