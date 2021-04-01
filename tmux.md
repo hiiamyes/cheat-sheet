@@ -130,3 +130,11 @@ To use your mouse in this mode (called copy mode) press ^b + : and enter followi
 ```
 setw -g mouse on
 ```
+
+On tmux 2.1 and above, add set 
+
+```
+-g mouse on to ~/.tmux.conf
+```
+
+and start new tmux/tmate session. To copy text - hold Shift key while selecting with the mouse.
