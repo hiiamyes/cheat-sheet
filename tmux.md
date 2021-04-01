@@ -120,3 +120,13 @@ n - next search match
 ? - search backward
 / - search forward
 ```
+
+## scroll with mouse
+
+https://superuser.com/questions/210125/scroll-shell-output-with-mouse-in-tmux
+
+To use your mouse in this mode (called copy mode) press ^b + : and enter following:
+
+```
+setw -g mouse on
+```
