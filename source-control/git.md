@@ -64,7 +64,7 @@ fatal: cherry-pick failed
 
 https://stackoverflow.com/questions/9059335/how-to-get-the-parents-of-a-merge-commit-in-git
 
-git log {hash}
+git log {hash}`
 
 ```
 commit 9c4eb4b9825feed749ecac50566582d099800108 (tag: build-11873.1)
@@ -72,3 +72,10 @@ Merge: ca3a5a7e1 8b8bd3c7b
 ```
 
 `ca3a5a7e1` is 1, `8b8bd3c7b` is 2
+
+
+## delete local branches merged into master
+
+```
+bmd = !git branch --merged=master | egrep -v "(^\*|master|develop|qa)" | xargs git branch -d
+```
