@@ -1,12 +1,13 @@
-# Color Picker
-- [Sip](https://sipapp.io/)
+# Ngrok
 
-# API tool
+Rewrite the host header
 
-- [Paw](https://paw.cloud/)
-- [Postman](https://www.getpostman.com/)
-- [Insomnia](https://insomnia.rest/)
+https://ngrok.com/docs#http-host-header
 
-# Markdown Editor
+```
+ngrok http -host-header=yes.lee.localhost 8080
+```
 
-- [MacDown](https://github.com/MacDownApp/macdown)
+ngrok http -hostname=ex.com 1234 # request tunnel 'ex.com' (DNS CNAME)
+
+Tunnels on custom domains (white label URLs)
