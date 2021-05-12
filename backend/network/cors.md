@@ -51,3 +51,11 @@ or for all routes
 
 app.options('\*', cors())
 ```
+
+## Allow all ports for localhost?
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
+
+Access-Control-Allow-Origin pattern?
+
+localhost:\*
