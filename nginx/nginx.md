@@ -88,6 +88,8 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ## CORS
 
+
+
 ```
 docker run -p 80:80
 ```
