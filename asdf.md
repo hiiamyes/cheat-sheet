@@ -75,4 +75,5 @@ asdf list nodejs
 asdf install nodejs latest
 asdf install nodejs 12.12.0
 asdf global nodejs 12.12.0
+asdf local nodejs 12.12.0
 ```
