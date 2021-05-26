@@ -122,8 +122,6 @@ http://www.nncron.ru/help/EN/working/cron-format.htm
 
 ### Others
 
-kill port 8080
-
 For OSX El Capitan and newer (or if your netstat doesn't support -p), use lsof
 
 EADDRINUSE 3000
@@ -132,6 +130,8 @@ EADDRINUSE 3000
 sudo lsof -i tcp:3000
 kill PID
 ```
+
+kill port 8080
 
 ```
 kill $(lsof -t -i:8080)
