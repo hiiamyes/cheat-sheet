@@ -134,6 +134,7 @@ kill PID
 kill port 8080
 
 ```
+lsof -i tcp:8080
 kill $(lsof -t -i:8080)
 ```
 
