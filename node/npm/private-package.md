@@ -45,7 +45,7 @@ Optional, can also ignore the release folder
 
 ```
 git checkout master
-git submodule add --branch release [tag] -- https://github.com/hiiamyes/frontend-cookbook.git release
+git submodule add --branch release [tag] -- git@github.com:hiiamyes/frontend-cookbook.git release
 git commit -m "Add release branch as submodule"
 git push
 ```

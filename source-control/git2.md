@@ -102,6 +102,8 @@ Pull submodule code
 ```
 git submodule init
 git submodule update
+git pull --recurse-submodules
+git submodule update --recursive --remote
 ```
 
 Remove submodule
