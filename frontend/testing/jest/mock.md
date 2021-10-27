@@ -29,3 +29,8 @@ export default useNamedMockFn;
 //
 const [mockFn, namedMockFn] = useNamedMockFn();
 ```
+
+```js
+import elementUI from "element-ui";
+elementUI.Message = namedMockFn("Message");
+```
