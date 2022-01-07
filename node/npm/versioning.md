@@ -17,3 +17,21 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 - PATCH version when you make backwards compatible bug fixes.
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+# example
+
+https://docs.npmjs.com/about-semantic-versioning
+https://semver.npmjs.com/
+
+For example, to specify acceptable version ranges up to 1.0.4, use the following syntax:
+
+Patch releases: 1.0 or 1.0.x or ~1.0.4
+Minor releases: 1 or 1.x or ^1.0.4
+Major releases: `*` or `x`
+
+how do I...
+include everything that does not increment the first non-zero portion of semver
+use the caret (aka hat) symbol, ^
+
+include everything greater than a particular version in the same minor range
+use the tilde symbol, ~
