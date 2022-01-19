@@ -13,3 +13,9 @@ npm
 ## color
 
 - [chalk](https://github.com/chalk/chalk)
+
+```
+import chalk from 'chalk';
+
+console.log(chalk.blue('Hello world!'));
+```
