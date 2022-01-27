@@ -4,6 +4,8 @@ https://www.csie.ntu.edu.tw/~p92005/Joel/Unicode.html
 
 # [Unicode](http://www.unicode.org/)
 
+an international encoding standard for use with different languages and scripts, by which each letter, digit, or symbol is assigned a unique numeric value that applies across different platforms and programs.
+
 code point
 
 ## A = U+0041
