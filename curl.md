@@ -48,3 +48,7 @@ done
 - [--silent](https://curl.haxx.se/docs/manpage.html#-s): Silent or quiet mode. Don't show progress meter or error messages.
 - [--head](https://curl.haxx.se/docs/manpage.html#-I): (HTTP FTP FILE) Fetch the headers only!
 - [--fail](https://curl.haxx.se/docs/manpage.html#-f): (HTTP) Fail silently (no output at all) on server errors.
+
+## JSON / json_pp
+
+curl "https://api.staging-st.amazingtalker.com/v1/pages/teachers/page_data?language_url_name=chinese&tag_value=business" -H 'AtLocale: zh-TW' -H 'AtSubdomain: tw' | json_pp -json_opt pretty,utf8
