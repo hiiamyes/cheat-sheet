@@ -6,6 +6,8 @@ check outdated package
 npm outdated -g --depth=0
 ```
 
+https://classic.yarnpkg.com/lang/en/docs/cli/outdated/
+
 ```
 yarn outdated
 ```
