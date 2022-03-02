@@ -34,3 +34,16 @@ const [mockFn, namedMockFn] = useNamedMockFn();
 import elementUI from "element-ui";
 elementUI.Message = namedMockFn("Message");
 ```
+
+## Mock axios
+
+https://vhudyma-blog.eu/3-ways-to-mock-axios-in-jest/
+
+```
+import axios from "axios";
+
+jest.mock("axios");
+
+const users = [];
+axios.get.mockResolvedValueOnce(users);
+```
