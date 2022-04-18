@@ -67,3 +67,16 @@ import * as profile from '~/store/teacher/profile/index'
 describe('updatedServices', () => {
   profile.getUpdatedPunishment = jest.fn().mockReturnValue(123)
 ```
+
+no warning solution
+
+```
+import * as profile from '~/store/teacher/profile/index'
+
+describe('updatedServices', () => {
+  const {
+    getters: { updatedServices },
+  } = profile
+  let { getUpdatedPunishment } = profile
+  getUpdatedPunishment = jest.fn().mockReturnValue({
+```
