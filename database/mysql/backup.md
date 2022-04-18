@@ -9,3 +9,7 @@ ssh root@{ip} "mysqldump -u dbuser -p {dbname} | gzip -9" > dblocal.sql.gz
 ```
 
 ## Restore
+
+```
+mysql -p -u root amz-development < dblocal.sql.gz
+```
