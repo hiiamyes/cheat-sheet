@@ -57,3 +57,12 @@ describe('updatedServices', () => {
   getUpdatedPunishment = jest.mockReturnValue(q)
   // 'getUpdatedPunishment' is read-only.
 ```
+
+The members of 'profile' are read-only.eslintno-import-assign
+
+```
+import * as profile from '~/store/teacher/profile/index'
+
+describe('updatedServices', () => {
+  profile.getUpdatedPunishment = jest.fn().mockReturnValue(123)
+```
