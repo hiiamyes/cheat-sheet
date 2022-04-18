@@ -61,6 +61,7 @@ describe('updatedServices', () => {
 The members of 'profile' are read-only.eslintno-import-assign
 
 ```
+/* eslint-disable no-import-assign */
 import * as profile from '~/store/teacher/profile/index'
 
 describe('updatedServices', () => {
