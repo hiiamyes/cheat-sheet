@@ -19,3 +19,7 @@ That can be done in one of two ways:
 "ES6 modules support cyclic dependencies automatically" so it is perfectly valid to import a module into itself so that functions within the module can call the module export for other functions in the module:
 
 https://exploringjs.com/es6/ch_modules.html#sec_cyclic-dependencies
+
+
+Ref
+- https://medium.com/welldone-software/jest-how-to-mock-a-function-call-inside-a-module-21c05c57a39f
