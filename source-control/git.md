@@ -73,9 +73,25 @@ Merge: ca3a5a7e1 8b8bd3c7b
 
 `ca3a5a7e1` is 1, `8b8bd3c7b` is 2
 
-
 ## delete local branches merged into master
 
 ```
 bmd = !git branch --merged=master | egrep -v "(^\*|master|develop|qa)" | xargs git branch -d
+```
+
+##
+
+git status --porcelain
+
+https://git-scm.com/docs/git-status#Documentation/git-status.txt---porcelainltversiongt
+
+Give the output in an easy-to-parse format for scripts. This is similar to the short output, but will remain stable across Git versions and regardless of user configuration. See below for details.
+
+The version parameter is used to specify the format version. This is optional and defaults to the original version v1 format.
+
+```js
+const gitStatus = await exec(
+  `cd ${i18nNuxtRepoPath} && git status --porcelain`
+);
+if (gitStatus.stdout === "") throw new Error(ERROR_NOTHING_CHANGE);
 ```
