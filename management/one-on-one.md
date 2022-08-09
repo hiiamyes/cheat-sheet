@@ -22,22 +22,36 @@ Here’s a 1-on-1 meeting agenda template with questions to help you out and fos
 
 1. How are you feeling today?
 1. Tell me about last week? How did your projects go?
-X 1. What are you planning on this week? What’s on the top of your mind?
+   X 1. What are you planning on this week? What’s on the top of your mind?
 1. Last time we spoke, you said Project X was a challenge for you, how is that going?
-X 1. What are your plans and priorities for this week?
+   X 1. What are your plans and priorities for this week?
 1. How confident are you with the company’s current direction? How do you feel when you come in for work every day?
 1. How did you like the last major feature you did?
 1. What has challenged you (in a particular period of time)?
 1. What could have gone better with the last feature?
-X 1. Which software tools do you feel you are missing?
+   X 1. Which software tools do you feel you are missing?
 1. What’s concerning you the most right now?
 1. How do you feel about our company goals? What part do you feel you have to play?
 1. Do you feel confident in how you/your team are progressing?
 1. Are you having trouble with any of the other teammates?
 1. What do you want to be doing a year from now? Is there anything we can do to help you achieve that?
 1. When you think about yourself in three years’ time, what comes to mind?
-O 1. How are you progressing on your career development goals?
-O 1. What can I help you with between now and the next time we meet? 
-O 1. What feedback do you have for me?
+   O 1. How are you progressing on your career development goals?
+   O 1. What can I help you with between now and the next time we meet?
+   O 1. What feedback do you have for me?
 
 It is rare that you will cover these questions in one meeting. Rather, select and group the questions according to what you want the meeting to achieve.
+
+---
+
+https://www.leapsome.com/blog/one-on-one-meeting-template
+
+- Best questions to ask in your first one-on-one meeting
+- What are you enjoying the most about working here?
+- What are you enjoying the most about your specific role?
+- What is going well?
+- What is not going well?
+- If you could only change one thing about the company or your role, what would it be?
+- What are your expectations of me as your manager?
+- What are your professional ambitions? Where do you see yourself in the next few years?
+- What should I know about you and how you like to work that will help us work well together?
