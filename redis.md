@@ -22,6 +22,12 @@ redis-cli -h localhost -p 6379 ping
 
 `get station-123:2019-02-01 // 2.3`
 
+- SCAN
+
+```
+scan 0 match *foo.bar/test* count 100000000
+```
+
 ## Update
 
 ## Delete
