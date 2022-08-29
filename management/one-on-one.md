@@ -45,8 +45,7 @@ It is rare that you will cover these questions in one meeting. Rather, select an
 ---
 
 https://www.leapsome.com/blog/one-on-one-meeting-template
-
-- Best questions to ask in your first one-on-one meeting
+Best questions to ask in your first one-on-one meeting
 - What are you enjoying the most about working here?
 - What are you enjoying the most about your specific role?
 - What is going well?
