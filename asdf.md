@@ -65,6 +65,7 @@ asdf global ruby 2.7.1
 
 https://github.com/asdf-vm/asdf-nodejs
 https://blog.logrocket.com/manage-node-js-versions-using-asdf/
+https://github.com/nodejs/node/blob/main/BUILDING.md#unix-prerequisites
 
 ```
 GNU Core Utils - brew install coreutils
