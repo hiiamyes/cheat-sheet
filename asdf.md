@@ -63,9 +63,11 @@ asdf global ruby 2.7.1
 
 ## nodejs
 
-https://github.com/asdf-vm/asdf-nodejs
-https://blog.logrocket.com/manage-node-js-versions-using-asdf/
-https://github.com/nodejs/node/blob/main/BUILDING.md#unix-prerequisites
+- https://github.com/asdf-vm/asdf-nodejs
+- https://blog.logrocket.com/manage-node-js-versions-using-asdf/
+- https://github.com/nodejs/node/blob/main/BUILDING.md#unix-prerequisites
+- https://www.digitalocean.com/community/tutorials/how-to-install-asdf-to-manage-multiple-programming-language-runtime-versions-on-ubuntu-22-04
+
 
 ```
 GNU Core Utils - brew install coreutils
