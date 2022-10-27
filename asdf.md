@@ -68,13 +68,25 @@ asdf global ruby 2.7.1
 - https://github.com/nodejs/node/blob/main/BUILDING.md#unix-prerequisites
 - https://www.digitalocean.com/community/tutorials/how-to-install-asdf-to-manage-multiple-programming-language-runtime-versions-on-ubuntu-22-04
 
+mac
 
 ```
 GNU Core Utils - brew install coreutils
 GnuPG - brew install gpg
 brew install gawk
 bash -c '${ASDF_DATA_DIR:=$HOME/.asdf}/plugins/nodejs/bin/import-release-team-keyring'
+```
+
+ubuntu
+```
+sudo apt update
+sudo apt install python3 g++ make python3-pip
+```
+
+for all OS
+```
 asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf plugin-update nodejs
 asdf list nodejs
 asdf install nodejs latest
 asdf install nodejs 12.12.0
