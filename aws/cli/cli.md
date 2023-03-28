@@ -14,6 +14,8 @@ aws s3 cp --profile pangolin s3://yes-pangolin/db-backup/$file ./
 
 ## Installation
 
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
 **macOS**
 
 v1: https://docs.aws.amazon.com/cli/latest/userguide/install-macos.html
@@ -28,8 +30,8 @@ cd ~/Downloads/
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 sudo installer -pkg AWSCLIV2.pkg -target /
 
-$ which aws
-$ aws --version
+which aws
+aws --version
 ```
 
 **Linux**
@@ -42,6 +44,12 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip
 sudo ./aws/install
 aws --version
+```
+
+## Update
+
+```
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 ```
 
 ## Credential

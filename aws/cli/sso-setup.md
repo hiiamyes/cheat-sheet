@@ -2,6 +2,7 @@
 
 ```
 code ~/.aws/config
+aws sso login --profile {profile-name} # Login AWS with SSO
 ```
 
 ```
