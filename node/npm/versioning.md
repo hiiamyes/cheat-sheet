@@ -1,7 +1,19 @@
 # Versioning
 
+## versions
+
+https://github.com/silverwind/versions
+
 ```
 yarn versions
+```
+
+## release-it
+
+https://github.com/release-it/release-it
+
+```
+npx release-it
 ```
 
 ## Symbol
@@ -35,3 +47,7 @@ use the caret (aka hat) symbol, ^
 
 include everything greater than a particular version in the same minor range
 use the tilde symbol, ~
+
+```
+
+```
