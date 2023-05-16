@@ -2,6 +2,11 @@
 
 [如何管理 Xcode 版本才不會害到自己跟團隊](https://13h.tw/2019/11/01/manage-xcode-versions.html)
 
+## xcode-install is being sunset
+
+https://github.com/xcpretty/xcode-install/blob/master/MIGRATION.md
+
+
 ## Installation
 
 From Apple's website
