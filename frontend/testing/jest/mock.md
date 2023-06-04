@@ -54,7 +54,7 @@ axios.get.mockResolvedValueOnce(users);
 import { getters, getUpdatedPunishment } from '~/store/teacher/profile/index'
 
 describe('updatedServices', () => {
-  getUpdatedPunishment = jest.mockReturnValue(q)
+  getUpdatedPunishment = jest.fn().mockReturnValue(q)
   // 'getUpdatedPunishment' is read-only.
 ```
 
