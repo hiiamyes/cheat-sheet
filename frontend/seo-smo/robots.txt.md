@@ -1,4 +1,4 @@
-# robot.txt
+# robots.txt
 
 `robots.txt` is a text file that webmasters create to instruct web robots (typically search engine robots) how to crawl and index pages on their website. The file defines the rules for accessing and indexing certain parts of a site. The `robots.txt` file must be placed in the root directory of a website and is accessible via `https://yourdomain.com/robots.txt`.
 
