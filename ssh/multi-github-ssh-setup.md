@@ -26,4 +26,8 @@ ssh-add ~/.ssh/id_yes
 ssh-keyscan github.com >> ~/.ssh/known_hosts
 ssh -T git@github.com
 ssh -T git@github-yes
+
+git clone git@github.com:word-up/dashboard-web.git
+git clone git@github-yes:hiiamyes/hiiiike.git
 ```
+
