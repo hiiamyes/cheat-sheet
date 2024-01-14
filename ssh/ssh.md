@@ -4,7 +4,6 @@ https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-
 
 ```
 ssh-keygen -t ed25519 -C "joshuayes@gmail.com"
-
 ssh-keygen -t ed25519 -C "yes.lee@wordup.com.tw"
 ```
 
