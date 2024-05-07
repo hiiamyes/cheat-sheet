@@ -43,3 +43,24 @@ ls -la
 ```
 
 to get a list of the files in the directory along with the file sizes.
+
+# ncdu
+
+Alternative Approach: Using ncdu
+If you find the du command output overwhelming or hard to navigate, ncdu (NCurses Disk Usage) is a text-based user interface to view and analyze disk usage. It provides an easier way to navigate through directories.
+
+Install ncdu (if not installed):
+
+```bash
+sudo apt-get install ncdu  # Debian/Ubuntu
+sudo yum install ncdu      # CentOS/RHEL
+sudo dnf install ncdu      # Fedora
+```
+
+Run ncdu:
+
+```bash
+sudo ncdu /
+```
+
+This command will open an interactive UI in your terminal, where you can easily browse directories and see their sizes.
