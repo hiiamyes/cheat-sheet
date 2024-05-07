@@ -28,3 +28,18 @@ du -h
 `/srv/`:
 
 `~/`: `/User/current-user/`
+
+# A a good command to find the top size directories in the current working directory would be
+
+```sh
+du -Sh | sort -rh | head -5
+```
+
+Once you've found the largest folders, you could use
+
+```sh
+cd /path/to/directory
+ls -la
+```
+
+to get a list of the files in the directory along with the file sizes.
