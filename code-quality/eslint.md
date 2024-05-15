@@ -115,7 +115,7 @@ vim .eslintrc
 
 That’s it! Extending "prettier" turns off a bunch of core ESLint rules, as well as a few rules from these plugins:
 
-## My onfig
+## My config
 
 ```
 yarn add --dev eslint prettier eslint-config-prettier eslint-plugin-prettier \
