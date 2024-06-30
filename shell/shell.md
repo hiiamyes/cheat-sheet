@@ -153,6 +153,8 @@ https://medium.com/@hiiamyes/linode-59e7787e31c
 ```
 ssh remote-host 'mkdir -p foo/bar/qux'
 scp -pr src-file-path username@ip:dest-file-path
+
+scp -i file.txt yes@139.162.47.241:/home/yes/app/paaaack
 ```
 
 Connecting to a database behind a firewall
