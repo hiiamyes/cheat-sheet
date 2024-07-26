@@ -29,7 +29,7 @@ du -h
 
 `~/`: `/User/current-user/`
 
-# A a good command to find the top size directories in the current working directory would be
+# A good command to find the top size directories in the current working directory would be
 
 ```sh
 du -Sh | sort -rh | head -5
