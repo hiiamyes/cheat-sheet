@@ -29,4 +29,15 @@ how to work with eslint?
   "trailingComma": "all"
 }
 ```
+
 https://github.com/prettier/prettier-vscode
+
+## Disable auto format while saving
+
+https://stackoverflow.com/questions/29969485/how-to-disable-auto-format-in-vscode
+
+```json
+{
+  "editor.formatOnSave": false
+}
+```
