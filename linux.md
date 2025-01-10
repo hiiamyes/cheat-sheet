@@ -55,6 +55,7 @@ Install ncdu (if not installed):
 sudo apt-get install ncdu  # Debian/Ubuntu
 sudo yum install ncdu      # CentOS/RHEL
 sudo dnf install ncdu      # Fedora
+brew install ncdu          # macOS
 ```
 
 Run ncdu:
